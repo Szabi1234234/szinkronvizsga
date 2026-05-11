@@ -1,0 +1,7 @@
+H:\Tantárgyak\11.D-S1-Asztali alkalmazások fejlesztése\KD-orarend\bin\Debug\KD-orarend.exe.config
+H:\Tantárgyak\11.D-S1-Asztali alkalmazások fejlesztése\KD-orarend\bin\Debug\KD-orarend.exe
+H:\Tantárgyak\11.D-S1-Asztali alkalmazások fejlesztése\KD-orarend\bin\Debug\KD-orarend.pdb
+H:\Tantárgyak\11.D-S1-Asztali alkalmazások fejlesztése\KD-orarend\obj\Debug\KD-orarend.csproj.AssemblyReference.cache
+H:\Tantárgyak\11.D-S1-Asztali alkalmazások fejlesztése\KD-orarend\obj\Debug\KD-orarend.csproj.CoreCompileInputs.cache
+H:\Tantárgyak\11.D-S1-Asztali alkalmazások fejlesztése\KD-orarend\obj\Debug\KD-orarend.exe
+H:\Tantárgyak\11.D-S1-Asztali alkalmazások fejlesztése\KD-orarend\obj\Debug\KD-orarend.pdb
