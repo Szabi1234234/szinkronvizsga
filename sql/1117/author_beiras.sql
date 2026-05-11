@@ -1,0 +1,2 @@
+INSERT INTO authors (firstname, lastname, birth_date, death_date, nationality, created_at, updated_at)
+VALUES ('Guillaume', 'Musso', '1974-06-06', NULL, 'French', current_timestamp(), current_timestamp())
