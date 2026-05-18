@@ -1,0 +1,8 @@
+H:\c#\54_1_telek\bin\Debug\54_1_telek.exe.config
+H:\c#\54_1_telek\bin\Debug\54_1_telek.exe
+H:\c#\54_1_telek\bin\Debug\54_1_telek.pdb
+H:\c#\54_1_telek\obj\Debug\54_1_telek.csproj.AssemblyReference.cache
+H:\c#\54_1_telek\obj\Debug\54_1_telek.csproj.CoreCompileInputs.cache
+H:\c#\54_1_telek\obj\Debug\54_1_telek.exe
+H:\c#\54_1_telek\obj\Debug\54_1_telek.pdb
+H:\c#\54_1_telek\obj\Debug\54_1_telek.exe.config

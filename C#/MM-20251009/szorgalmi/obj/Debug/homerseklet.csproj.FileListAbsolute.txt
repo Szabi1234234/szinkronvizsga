@@ -1,0 +1,8 @@
+H:\c#\MM-20251009\szorgalmi\bin\Debug\szorgalmi.exe.config
+H:\c#\MM-20251009\szorgalmi\bin\Debug\szorgalmi.exe
+H:\c#\MM-20251009\szorgalmi\bin\Debug\szorgalmi.pdb
+H:\c#\MM-20251009\szorgalmi\obj\Debug\homerseklet.csproj.AssemblyReference.cache
+H:\c#\MM-20251009\szorgalmi\obj\Debug\homerseklet.csproj.CoreCompileInputs.cache
+H:\c#\MM-20251009\szorgalmi\obj\Debug\szorgalmi.exe
+H:\c#\MM-20251009\szorgalmi\obj\Debug\szorgalmi.pdb
+H:\c#\MM-20251009\szorgalmi\obj\Debug\szorgalmi.exe.config

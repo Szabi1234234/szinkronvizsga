@@ -1,0 +1,8 @@
+H:\c#\31oldal\35\bin\Debug\35.exe.config
+H:\c#\31oldal\35\bin\Debug\35.exe
+H:\c#\31oldal\35\bin\Debug\35.pdb
+H:\c#\31oldal\35\obj\Debug\35.csproj.AssemblyReference.cache
+H:\c#\31oldal\35\obj\Debug\35.csproj.CoreCompileInputs.cache
+H:\c#\31oldal\35\obj\Debug\35.exe
+H:\c#\31oldal\35\obj\Debug\35.pdb
+H:\c#\31oldal\35\obj\Debug\35.exe.config

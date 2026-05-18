@@ -1,0 +1,8 @@
+H:\MM-hajokű\MM-hajokű\bin\Debug\MM-hajokű.exe.config
+H:\MM-hajokű\MM-hajokű\bin\Debug\MM-hajokű.exe
+H:\MM-hajokű\MM-hajokű\bin\Debug\MM-hajokű.pdb
+H:\MM-hajokű\MM-hajokű\obj\Debug\MM-hajokű.csproj.AssemblyReference.cache
+H:\MM-hajokű\MM-hajokű\obj\Debug\MM-hajokű.csproj.CoreCompileInputs.cache
+H:\MM-hajokű\MM-hajokű\obj\Debug\MM-hajokű.exe
+H:\MM-hajokű\MM-hajokű\obj\Debug\MM-hajokű.pdb
+H:\MM-hajokű\MM-hajokű\obj\Debug\MM-hajokű.exe.config

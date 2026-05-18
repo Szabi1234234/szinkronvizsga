@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\c#\\Muveletek-valtozokkal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD6D314-9836-498A-82C5-DB7A8E0ADB73}|muveletek\\muveletek.csproj|h:\\c#\\muveletek-valtozokkal\\muveletek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD6D314-9836-498A-82C5-DB7A8E0ADB73}|muveletek\\muveletek.csproj|solutionrelative:muveletek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{471A8B2C-EBE4-462A-8ED6-D438277C5E7C}|38-feladatok\\38-feladatok.csproj|h:\\c#\\muveletek-valtozokkal\\38-feladatok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471A8B2C-EBE4-462A-8ED6-D438277C5E7C}|38-feladatok\\38-feladatok.csproj|solutionrelative:38-feladatok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE23844F-812E-4ECE-88F1-8A2D4433F72B}|random\\random.csproj|h:\\c#\\muveletek-valtozokkal\\random\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE23844F-812E-4ECE-88F1-8A2D4433F72B}|random\\random.csproj|solutionrelative:random\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\Muveletek-valtozokkal\\muveletek\\Program.cs",
+              "RelativeDocumentMoniker": "muveletek\\Program.cs",
+              "ToolTip": "H:\\c#\\Muveletek-valtozokkal\\muveletek\\Program.cs",
+              "RelativeToolTip": "muveletek\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T08:14:06.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\Muveletek-valtozokkal\\38-feladatok\\Program.cs",
+              "RelativeDocumentMoniker": "38-feladatok\\Program.cs",
+              "ToolTip": "H:\\c#\\Muveletek-valtozokkal\\38-feladatok\\Program.cs",
+              "RelativeToolTip": "38-feladatok\\Program.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T08:13:59.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\Muveletek-valtozokkal\\random\\Program.cs",
+              "RelativeDocumentMoniker": "random\\Program.cs",
+              "ToolTip": "H:\\c#\\Muveletek-valtozokkal\\random\\Program.cs",
+              "RelativeToolTip": "random\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T12:49:53.535Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

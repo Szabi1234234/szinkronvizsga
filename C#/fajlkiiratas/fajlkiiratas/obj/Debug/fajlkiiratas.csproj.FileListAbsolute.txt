@@ -1,0 +1,8 @@
+H:\c#\fajlkiiratas\fajlkiiratas\bin\Debug\fajlkiiratas.exe.config
+H:\c#\fajlkiiratas\fajlkiiratas\bin\Debug\fajlkiiratas.exe
+H:\c#\fajlkiiratas\fajlkiiratas\bin\Debug\fajlkiiratas.pdb
+H:\c#\fajlkiiratas\fajlkiiratas\obj\Debug\fajlkiiratas.csproj.AssemblyReference.cache
+H:\c#\fajlkiiratas\fajlkiiratas\obj\Debug\fajlkiiratas.csproj.CoreCompileInputs.cache
+H:\c#\fajlkiiratas\fajlkiiratas\obj\Debug\fajlkiiratas.exe
+H:\c#\fajlkiiratas\fajlkiiratas\obj\Debug\fajlkiiratas.pdb
+H:\c#\fajlkiiratas\fajlkiiratas\obj\Debug\fajlkiiratas.exe.config

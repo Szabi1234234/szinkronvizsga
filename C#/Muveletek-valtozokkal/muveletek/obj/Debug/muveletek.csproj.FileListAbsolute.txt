@@ -1,0 +1,8 @@
+H:\c#\Muveletek-valtozokkal\muveletek\bin\Debug\muveletek.exe.config
+H:\c#\Muveletek-valtozokkal\muveletek\bin\Debug\muveletek.exe
+H:\c#\Muveletek-valtozokkal\muveletek\bin\Debug\muveletek.pdb
+H:\c#\Muveletek-valtozokkal\muveletek\obj\Debug\muveletek.csproj.AssemblyReference.cache
+H:\c#\Muveletek-valtozokkal\muveletek\obj\Debug\muveletek.csproj.CoreCompileInputs.cache
+H:\c#\Muveletek-valtozokkal\muveletek\obj\Debug\muveletek.exe
+H:\c#\Muveletek-valtozokkal\muveletek\obj\Debug\muveletek.pdb
+H:\c#\Muveletek-valtozokkal\muveletek\obj\Debug\muveletek.exe.config
