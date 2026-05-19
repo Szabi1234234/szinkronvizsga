@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\scop4\\source\\repos\\szintvizsga_gyak\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4894F0-1F0B-4819-A3AA-A6F5BAD8B93A}|szintvizsga_gyak\\szintvizsga_gyak.csproj|c:\\users\\scop4\\source\\repos\\szintvizsga_gyak\\szintvizsga_gyak\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C4894F0-1F0B-4819-A3AA-A6F5BAD8B93A}|szintvizsga_gyak\\szintvizsga_gyak.csproj|solutionrelative:szintvizsga_gyak\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\scop4\\source\\repos\\szintvizsga_gyak\\szintvizsga_gyak\\Program.cs",
+              "RelativeDocumentMoniker": "szintvizsga_gyak\\Program.cs",
+              "ToolTip": "C:\\Users\\scop4\\source\\repos\\szintvizsga_gyak\\szintvizsga_gyak\\Program.cs",
+              "RelativeToolTip": "szintvizsga_gyak\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAnwBMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T19:37:10.233Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

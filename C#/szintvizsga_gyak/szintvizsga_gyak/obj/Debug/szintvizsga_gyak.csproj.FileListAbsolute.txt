@@ -1,0 +1,7 @@
+C:\Users\scop4\source\repos\szintvizsga_gyak\szintvizsga_gyak\obj\Debug\szintvizsga_gyak.csproj.AssemblyReference.cache
+C:\Users\scop4\source\repos\szintvizsga_gyak\szintvizsga_gyak\obj\Debug\szintvizsga_gyak.csproj.CoreCompileInputs.cache
+C:\Users\scop4\source\repos\szintvizsga_gyak\szintvizsga_gyak\bin\Debug\szintvizsga_gyak.exe.config
+C:\Users\scop4\source\repos\szintvizsga_gyak\szintvizsga_gyak\bin\Debug\szintvizsga_gyak.exe
+C:\Users\scop4\source\repos\szintvizsga_gyak\szintvizsga_gyak\bin\Debug\szintvizsga_gyak.pdb
+C:\Users\scop4\source\repos\szintvizsga_gyak\szintvizsga_gyak\obj\Debug\szintvizsga_gyak.exe
+C:\Users\scop4\source\repos\szintvizsga_gyak\szintvizsga_gyak\obj\Debug\szintvizsga_gyak.pdb

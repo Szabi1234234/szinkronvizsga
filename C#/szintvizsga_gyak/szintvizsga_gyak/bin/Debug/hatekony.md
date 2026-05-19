@@ -1,0 +1,2 @@
+﻿| Modell | Gyártó | Fogyasztás |
+| :--- | :---: | :---: |
