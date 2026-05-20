@@ -1,0 +1,644 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-mono);background:transparent}
+.cs-wrap{padding:1rem 0;max-width:680px}
+.nav{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:1.5rem}
+.nav button{font-family:var(--font-mono);font-size:12px;padding:5px 12px;border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-md);background:transparent;color:var(--color-text-secondary);cursor:pointer;transition:all .15s}
+.nav button.active,.nav button:hover{background:var(--color-background-secondary);color:var(--color-text-primary);border-color:var(--color-border-primary)}
+.tab{display:none}.tab.active{display:block}
+.section{margin-bottom:1.5rem}
+.section-title{font-family:var(--font-sans);font-size:13px;font-weight:500;color:var(--color-text-secondary);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.75rem;padding-bottom:6px;border-bottom:0.5px solid var(--color-border-tertiary)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px}
+.card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:12px 14px}
+.card-title{font-family:var(--font-sans);font-size:12px;font-weight:500;color:var(--color-text-secondary);margin-bottom:8px;display:flex;align-items:center;gap:6px}
+.card-title i{font-size:14px}
+pre{font-family:var(--font-mono);font-size:11.5px;line-height:1.65;color:var(--color-text-primary);white-space:pre-wrap;word-break:break-word}
+.kw{color:#7F77DD}
+.fn{color:#1D9E75}
+.str{color:#BA7517}
+.cmt{color:var(--color-text-tertiary);font-style:italic}
+.num{color:#D85A30}
+.tag{color:#185FA5}
+.attr{color:#3B6D11}
+.tip{background:var(--color-background-secondary);border-left:2px solid #7F77DD;border-radius:0 var(--border-radius-md) var(--border-radius-md) 0;padding:8px 10px;font-size:12px;color:var(--color-text-secondary);margin-top:8px;font-family:var(--font-sans);line-height:1.5}
+.wide .cards{grid-template-columns:1fr}
+</style>
+
+<div class="cs-wrap">
+<h2 class="sr-only">Fejlesztői cheatsheet – JavaScript, CSS, HTML, C#, MySQL</h2>
+<div class="nav">
+  <button class="active" onclick="show('js')">JavaScript</button>
+  <button onclick="show('css')">CSS</button>
+  <button onclick="show('html')">HTML</button>
+  <button onclick="show('cs')">C#</button>
+  <button onclick="show('sql')">MySQL</button>
+</div>
+
+<!-- JS -->
+<div class="tab active" id="tab-js">
+
+<div class="section">
+<div class="section-title">Változók & típusok</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-variable" aria-hidden="true"></i>Deklaráció</div>
+<pre><span class="kw">let</span> nev = <span class="str">"Anna"</span>;        <span class="cmt">// újraírható</span>
+<span class="kw">const</span> PI = <span class="num">3.14</span>;       <span class="cmt">// állandó</span>
+<span class="kw">var</span> regi = <span class="num">1</span>;           <span class="cmt">// kerüld!</span>
+
+<span class="kw">typeof</span> nev             <span class="cmt">// "string"</span>
+<span class="kw">typeof</span> <span class="num">42</span>              <span class="cmt">// "number"</span>
+<span class="kw">typeof</span> <span class="kw">true</span>            <span class="cmt">// "boolean"</span>
+<span class="kw">typeof</span> <span class="kw">null</span>            <span class="cmt">// "object" ⚠</span></pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-code" aria-hidden="true"></i>Template literal & destrukturálás</div>
+<pre><span class="kw">const</span> msg = <span class="str">`Szia, <span class="kw">${nev}</span>!`</span>;
+
+<span class="kw">const</span> { x, y } = pont;
+<span class="kw">const</span> [a, b] = tomb;
+
+<span class="kw">const</span> masolat = { ...obj, extra: <span class="num">1</span> };</pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">Függvények</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-function" aria-hidden="true"></i>Szintaxis</div>
+<pre><span class="cmt">// Hagyományos</span>
+<span class="kw">function</span> <span class="fn">osszeg</span>(a, b) {
+  <span class="kw">return</span> a + b;
+}
+
+<span class="cmt">// Arrow function</span>
+<span class="kw">const</span> <span class="fn">osszeg</span> = (a, b) => a + b;
+
+<span class="cmt">// Default paraméter</span>
+<span class="kw">const</span> <span class="fn">koszon</span> = (nev = <span class="str">"vendég"</span>) =>
+  <span class="str">`Szia <span class="kw">${nev}</span>!`</span>;</pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-clock" aria-hidden="true"></i>Async / Await</div>
+<pre><span class="kw">async function</span> <span class="fn">adat</span>() {
+  <span class="kw">try</span> {
+    <span class="kw">const</span> res = <span class="kw">await</span> <span class="fn">fetch</span>(url);
+    <span class="kw">const</span> json = <span class="kw">await</span> res.<span class="fn">json</span>();
+    <span class="kw">return</span> json;
+  } <span class="kw">catch</span> (e) {
+    console.<span class="fn">error</span>(e);
+  }
+}</pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">Tömbök & objektumok</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-list" aria-hidden="true"></i>Array metódusok</div>
+<pre><span class="kw">const</span> sz = [<span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>,<span class="num">4</span>,<span class="num">5</span>];
+
+sz.<span class="fn">map</span>(x => x * <span class="num">2</span>)     <span class="cmt">// [2,4,6,8,10]</span>
+sz.<span class="fn">filter</span>(x => x > <span class="num">2</span>) <span class="cmt">// [3,4,5]</span>
+sz.<span class="fn">find</span>(x => x > <span class="num">3</span>)   <span class="cmt">// 4</span>
+sz.<span class="fn">reduce</span>((s,x) => s+x, <span class="num">0</span>) <span class="cmt">// 15</span>
+sz.<span class="fn">includes</span>(<span class="num">3</span>)          <span class="cmt">// true</span>
+sz.<span class="fn">some</span>(x => x > <span class="num">4</span>)    <span class="cmt">// true</span>
+sz.<span class="fn">every</span>(x => x > <span class="num">0</span>)   <span class="cmt">// true</span></pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-braces" aria-hidden="true"></i>Objektum műveletek</div>
+<pre>Object.<span class="fn">keys</span>(obj)
+Object.<span class="fn">values</span>(obj)
+Object.<span class="fn">entries</span>(obj)
+
+<span class="cmt">// Opcionális láncolás</span>
+user?.cim?.varos
+
+<span class="cmt">// Nullish coalescing</span>
+<span class="kw">const</span> nev = user.nev ?? <span class="str">"Ismeretlen"</span>;</pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">DOM & Események</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-browser" aria-hidden="true"></i>DOM manipuláció</div>
+<pre>document.<span class="fn">querySelector</span>(<span class="str">"#id"</span>)
+document.<span class="fn">querySelectorAll</span>(<span class="str">".cls"</span>)
+
+el.textContent = <span class="str">"szöveg"</span>;
+el.innerHTML = <span class="str">"&lt;b&gt;HTML&lt;/b&gt;"</span>;
+el.classList.<span class="fn">add</span>(<span class="str">"aktiv"</span>);
+el.classList.<span class="fn">toggle</span>(<span class="str">"nyitva"</span>);
+el.setAttribute(<span class="str">"href"</span>, <span class="str">"#"</span>);
+el.style.color = <span class="str">"red"</span>;</pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-pointer" aria-hidden="true"></i>Események</div>
+<pre>el.<span class="fn">addEventListener</span>(<span class="str">"click"</span>, (e) => {
+  e.<span class="fn">preventDefault</span>();
+  console.<span class="fn">log</span>(e.target);
+});
+
+<span class="cmt">// Eseménydelegálás</span>
+document.<span class="fn">addEventListener</span>(<span class="str">"click"</span>, (e) => {
+  <span class="kw">if</span> (e.target.<span class="fn">matches</span>(<span class="str">".gomb"</span>)) {
+    <span class="cmt">// kezelés</span>
+  }
+});</pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">String metódusok</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-abc" aria-hidden="true"></i>Hasznos stringek</div>
+<pre>s.<span class="fn">toUpperCase</span>() / .<span class="fn">toLowerCase</span>()
+s.<span class="fn">trim</span>()           <span class="cmt">// vezető/záró szóköz le</span>
+s.<span class="fn">includes</span>(<span class="str">"szó"</span>) <span class="cmt">// boolean</span>
+s.<span class="fn">startsWith</span>(<span class="str">"A"</span>)
+s.<span class="fn">split</span>(<span class="str">","</span>)       <span class="cmt">// tömbbé alakít</span>
+s.<span class="fn">replace</span>(<span class="str">"a"</span>, <span class="str">"b"</span>)
+s.<span class="fn">slice</span>(<span class="num">0</span>, <span class="num">5</span>)      <span class="cmt">// substring</span>
+s.<span class="fn">padStart</span>(<span class="num">4</span>, <span class="str">"0"</span>) <span class="cmt">// "007"</span></pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-alert-triangle" aria-hidden="true"></i>Hibakezelés & egyéb</div>
+<pre><span class="kw">try</span> {
+  <span class="kw">throw new</span> <span class="fn">Error</span>(<span class="str">"Hiba!"</span>);
+} <span class="kw">catch</span> (e) {
+  console.<span class="fn">error</span>(e.message);
+} <span class="kw">finally</span> {
+  <span class="cmt">// mindig lefut</span>
+}
+
+<span class="fn">setTimeout</span>(() => {}, <span class="num">1000</span>);
+<span class="fn">setInterval</span>(() => {}, <span class="num">500</span>);
+JSON.<span class="fn">stringify</span>(obj);
+JSON.<span class="fn">parse</span>(str);</pre></div>
+</div></div>
+
+</div><!-- /tab-js -->
+
+<!-- CSS -->
+<div class="tab" id="tab-css">
+
+<div class="section">
+<div class="section-title">Szelektorok</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-pointer" aria-hidden="true"></i>Alap szelektorok</div>
+<pre><span class="tag">h1</span> { }              <span class="cmt">/* elem */</span>
+<span class="tag">.osztaly</span> { }        <span class="cmt">/* class */</span>
+<span class="tag">#azonosito</span> { }      <span class="cmt">/* id */</span>
+<span class="tag">div p</span> { }           <span class="cmt">/* leszármazott */</span>
+<span class="tag">div > p</span> { }         <span class="cmt">/* közvetlen gyerek */</span>
+<span class="tag">h1 + p</span> { }          <span class="cmt">/* szomszéd */</span>
+<span class="tag">a:hover</span> { }         <span class="cmt">/* pszeudo-class */</span>
+<span class="tag">p::first-line</span> { }   <span class="cmt">/* pszeudo-elem */</span>
+<span class="tag">[type="text"]</span> { }   <span class="cmt">/* attribútum */</span></pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-layers-intersect" aria-hidden="true"></i>Specificitás (erő sorrend)</div>
+<pre><span class="cmt">/* gyenge → erős */</span>
+<span class="tag">* </span>{ }               <span class="cmt">/* 0,0,0 */</span>
+<span class="tag">p </span>{ }               <span class="cmt">/* 0,0,1 */</span>
+<span class="tag">.cls </span>{ }            <span class="cmt">/* 0,1,0 */</span>
+<span class="tag">#id </span>{ }             <span class="cmt">/* 1,0,0 */</span>
+<span class="tag">style=""</span>            <span class="cmt">/* inline */</span>
+<span class="fn">!important</span>          <span class="cmt">/* felülír mindent ⚠ */</span></pre>
+<div class="tip">Az !important kerülendő – helyette növeld a specificitást.</div>
+</div>
+</div></div>
+
+<div class="section">
+<div class="section-title">Box modell & elrendezés</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-box" aria-hidden="true"></i>Box model</div>
+<pre><span class="tag">*</span> { <span class="attr">box-sizing</span>: border-box; }
+<span class="cmt">/* content + padding + border = méret */</span>
+
+.<span class="tag">doboz</span> {
+  <span class="attr">width</span>: <span class="num">200px</span>;
+  <span class="attr">padding</span>: <span class="num">16px</span>;
+  <span class="attr">border</span>: <span class="num">1px</span> solid #ccc;
+  <span class="attr">margin</span>: <span class="num">8px</span> <span class="num">16px</span>; <span class="cmt">/* fe-le ba-jo */</span>
+}</pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-columns" aria-hidden="true"></i>Display értékek</div>
+<pre><span class="attr">display</span>: block;     <span class="cmt">/* egész sor */</span>
+<span class="attr">display</span>: inline;    <span class="cmt">/* tartalomszélesség */</span>
+<span class="attr">display</span>: inline-block;
+<span class="attr">display</span>: flex;
+<span class="attr">display</span>: grid;
+<span class="attr">display</span>: none;      <span class="cmt">/* elrejt */</span>
+<span class="attr">visibility</span>: hidden; <span class="cmt">/* helyet foglal */</span></pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">Flexbox</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-layout-distribute-horizontal" aria-hidden="true"></i>Szülőn</div>
+<pre>.<span class="tag">container</span> {
+  <span class="attr">display</span>: flex;
+  <span class="attr">flex-direction</span>: row | column;
+  <span class="attr">justify-content</span>: flex-start
+    | center | flex-end
+    | space-between | space-around;
+  <span class="attr">align-items</span>: stretch
+    | center | flex-start | flex-end;
+  <span class="attr">flex-wrap</span>: wrap;
+  <span class="attr">gap</span>: <span class="num">16px</span>;
+}</pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-layout-distribute-vertical" aria-hidden="true"></i>Gyereken</div>
+<pre>.<span class="tag">item</span> {
+  <span class="attr">flex</span>: <span class="num">1</span>;          <span class="cmt">/* egyenlő elosztás */</span>
+  <span class="attr">flex-grow</span>: <span class="num">2</span>;     <span class="cmt">/* 2x akkora */</span>
+  <span class="attr">flex-shrink</span>: <span class="num">0</span>;   <span class="cmt">/* ne zsugorodjon */</span>
+  <span class="attr">flex-basis</span>: <span class="num">200px</span>;
+  <span class="attr">align-self</span>: center;
+  <span class="attr">order</span>: <span class="num">-1</span>;        <span class="cmt">/* sorrend */</span>
+}</pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">CSS Grid</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-grid-dots" aria-hidden="true"></i>Grid alapok</div>
+<pre>.<span class="tag">grid</span> {
+  <span class="attr">display</span>: grid;
+  <span class="attr">grid-template-columns</span>:
+    repeat(<span class="num">3</span>, <span class="num">1fr</span>);
+  <span class="attr">grid-template-rows</span>: auto <span class="num">200px</span>;
+  <span class="attr">gap</span>: <span class="num">16px</span>;
+}
+.<span class="tag">item</span> {
+  <span class="attr">grid-column</span>: <span class="num">1</span> / <span class="num">3</span>; <span class="cmt">/* 2 oszlop */</span>
+  <span class="attr">grid-row</span>: <span class="num">1</span> / <span class="num">2</span>;
+}</pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-palette" aria-hidden="true"></i>CSS változók & media query</div>
+<pre>:root {
+  <span class="attr">--szin</span>: #7F77DD;
+  <span class="attr">--res</span>: <span class="num">16px</span>;
+}
+.<span class="tag">elem</span> { <span class="attr">color</span>: <span class="fn">var</span>(<span class="attr">--szin</span>); }
+
+@media (<span class="attr">max-width</span>: <span class="num">768px</span>) {
+  .<span class="tag">container</span> {
+    <span class="attr">flex-direction</span>: column;
+  }
+}</pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">Pozicionálás & Animáció</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-arrows-move" aria-hidden="true"></i>Position</div>
+<pre>.<span class="tag">el</span> {
+  <span class="attr">position</span>: static;    <span class="cmt">/* alap */</span>
+  <span class="attr">position</span>: relative;  <span class="cmt">/* saját helyéhez */</span>
+  <span class="attr">position</span>: absolute;  <span class="cmt">/* szülőhöz */</span>
+  <span class="attr">position</span>: fixed;     <span class="cmt">/* ablakhoz */</span>
+  <span class="attr">position</span>: sticky;    <span class="cmt">/* scrollnál ragad */</span>
+  <span class="attr">top</span>: <span class="num">0</span>; <span class="attr">left</span>: <span class="num">0</span>;
+  <span class="attr">z-index</span>: <span class="num">10</span>;
+}</pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-player-play" aria-hidden="true"></i>Transition & Animation</div>
+<pre>.<span class="tag">gomb</span> {
+  <span class="attr">transition</span>: all <span class="num">0.3s</span> ease;
+}
+.<span class="tag">gomb</span>:hover {
+  <span class="attr">transform</span>: <span class="fn">scale</span>(<span class="num">1.05</span>);
+}
+
+@keyframes <span class="fn">beuszan</span> {
+  from { <span class="attr">opacity</span>: <span class="num">0</span>; <span class="attr">transform</span>: <span class="fn">translateY</span>(<span class="num">20px</span>); }
+  to   { <span class="attr">opacity</span>: <span class="num">1</span>; <span class="attr">transform</span>: <span class="fn">translateY</span>(<span class="num">0</span>); }
+}
+.<span class="tag">el</span> { <span class="attr">animation</span>: <span class="fn">beuszan</span> <span class="num">.4s</span> ease; }</pre></div>
+</div></div>
+
+</div><!-- /tab-css -->
+
+<!-- HTML -->
+<div class="tab" id="tab-html">
+
+<div class="section">
+<div class="section-title">Alap struktúra</div>
+<div class="cards wide">
+<div class="card"><div class="card-title"><i class="ti ti-file-code" aria-hidden="true"></i>HTML boilerplate</div>
+<pre><span class="tag">&lt;!DOCTYPE html&gt;</span>
+<span class="tag">&lt;html</span> <span class="attr">lang</span>=<span class="str">"hu"</span><span class="tag">&gt;</span>
+<span class="tag">&lt;head&gt;</span>
+  <span class="tag">&lt;meta</span> <span class="attr">charset</span>=<span class="str">"UTF-8"</span><span class="tag">&gt;</span>
+  <span class="tag">&lt;meta</span> <span class="attr">name</span>=<span class="str">"viewport"</span> <span class="attr">content</span>=<span class="str">"width=device-width, initial-scale=1.0"</span><span class="tag">&gt;</span>
+  <span class="tag">&lt;title&gt;</span>Oldal címe<span class="tag">&lt;/title&gt;</span>
+  <span class="tag">&lt;link</span> <span class="attr">rel</span>=<span class="str">"stylesheet"</span> <span class="attr">href</span>=<span class="str">"style.css"</span><span class="tag">&gt;</span>
+<span class="tag">&lt;/head&gt;</span>
+<span class="tag">&lt;body&gt;</span>
+  <span class="cmt">&lt;!-- tartalom itt --&gt;</span>
+  <span class="tag">&lt;script</span> <span class="attr">src</span>=<span class="str">"app.js"</span><span class="tag">&gt;&lt;/script&gt;</span>
+<span class="tag">&lt;/body&gt;</span>
+<span class="tag">&lt;/html&gt;</span></pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">Szemantikus elemek</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-layout" aria-hidden="true"></i>Oldal struktúra</div>
+<pre><span class="tag">&lt;header&gt;</span>  fejléc
+<span class="tag">&lt;nav&gt;</span>     navigáció
+<span class="tag">&lt;main&gt;</span>    fő tartalom
+<span class="tag">&lt;section&gt;</span> tematikus blokk
+<span class="tag">&lt;article&gt;</span> önálló tartalom
+<span class="tag">&lt;aside&gt;</span>   oldalsáv
+<span class="tag">&lt;footer&gt;</span>  lábléc</pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-typography" aria-hidden="true"></i>Szöveg elemek</div>
+<pre><span class="tag">&lt;h1&gt;</span>–<span class="tag">&lt;h6&gt;</span>    fejlécek
+<span class="tag">&lt;p&gt;</span>         bekezdés
+<span class="tag">&lt;strong&gt;</span>    félkövér (fontos)
+<span class="tag">&lt;em&gt;</span>        dőlt (hangsúly)
+<span class="tag">&lt;span&gt;</span>      inline tároló
+<span class="tag">&lt;div&gt;</span>       block tároló
+<span class="tag">&lt;br&gt;</span>        sortörés
+<span class="tag">&lt;hr&gt;</span>        elválasztó vonal</pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">Linkek, képek, listák</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-link" aria-hidden="true"></i>Linkek & képek</div>
+<pre><span class="tag">&lt;a</span> <span class="attr">href</span>=<span class="str">"https://..."</span> <span class="attr">target</span>=<span class="str">"_blank"</span><span class="tag">&gt;</span>
+  Szöveg
+<span class="tag">&lt;/a&gt;</span>
+
+<span class="tag">&lt;img</span>
+  <span class="attr">src</span>=<span class="str">"kep.jpg"</span>
+  <span class="attr">alt</span>=<span class="str">"Leírás"</span>    <span class="cmt">← kötelező!</span>
+  <span class="attr">width</span>=<span class="str">"400"</span>
+  <span class="attr">loading</span>=<span class="str">"lazy"</span>
+<span class="tag">&gt;</span></pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-list" aria-hidden="true"></i>Listák & táblázat</div>
+<pre><span class="tag">&lt;ul&gt;</span> <span class="tag">&lt;li&gt;</span>pontozott<span class="tag">&lt;/li&gt;</span> <span class="tag">&lt;/ul&gt;</span>
+<span class="tag">&lt;ol&gt;</span> <span class="tag">&lt;li&gt;</span>számozott<span class="tag">&lt;/li&gt;</span> <span class="tag">&lt;/ol&gt;</span>
+
+<span class="tag">&lt;table&gt;</span>
+  <span class="tag">&lt;thead&gt;&lt;tr&gt;&lt;th&gt;</span>Fejléc<span class="tag">&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</span>
+  <span class="tag">&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;</span>Adat<span class="tag">&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;</span>
+<span class="tag">&lt;/table&gt;</span></pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">Űrlapok</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-forms" aria-hidden="true"></i>Form elemek</div>
+<pre><span class="tag">&lt;form</span> <span class="attr">action</span>=<span class="str">"/kuldj"</span> <span class="attr">method</span>=<span class="str">"POST"</span><span class="tag">&gt;</span>
+  <span class="tag">&lt;label</span> <span class="attr">for</span>=<span class="str">"nev"</span><span class="tag">&gt;</span>Név:<span class="tag">&lt;/label&gt;</span>
+  <span class="tag">&lt;input</span> <span class="attr">type</span>=<span class="str">"text"</span> <span class="attr">id</span>=<span class="str">"nev"</span>
+    <span class="attr">name</span>=<span class="str">"nev"</span> <span class="attr">required</span><span class="tag">&gt;</span>
+
+  <span class="tag">&lt;input</span> <span class="attr">type</span>=<span class="str">"email"</span><span class="tag">&gt;</span>
+  <span class="tag">&lt;input</span> <span class="attr">type</span>=<span class="str">"password"</span><span class="tag">&gt;</span>
+  <span class="tag">&lt;input</span> <span class="attr">type</span>=<span class="str">"checkbox"</span><span class="tag">&gt;</span>
+  <span class="tag">&lt;select&gt;&lt;option&gt;</span>...<span class="tag">&lt;/select&gt;</span>
+  <span class="tag">&lt;textarea</span> <span class="attr">rows</span>=<span class="str">"4"</span><span class="tag">&gt;&lt;/textarea&gt;</span>
+  <span class="tag">&lt;button</span> <span class="attr">type</span>=<span class="str">"submit"</span><span class="tag">&gt;</span>Küldés<span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;/form&gt;</span></pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-info-circle" aria-hidden="true"></i>Fontos meta tagek</div>
+<pre><span class="cmt">&lt;!-- SEO --&gt;</span>
+<span class="tag">&lt;meta</span> <span class="attr">name</span>=<span class="str">"description"</span>
+      <span class="attr">content</span>=<span class="str">"..."</span><span class="tag">&gt;</span>
+
+<span class="cmt">&lt;!-- Open Graph --&gt;</span>
+<span class="tag">&lt;meta</span> <span class="attr">property</span>=<span class="str">"og:title"</span>
+      <span class="attr">content</span>=<span class="str">"..."</span><span class="tag">&gt;</span>
+
+<span class="cmt">&lt;!-- Favicon --&gt;</span>
+<span class="tag">&lt;link</span> <span class="attr">rel</span>=<span class="str">"icon"</span>
+      <span class="attr">href</span>=<span class="str">"favicon.ico"</span><span class="tag">&gt;</span></pre></div>
+</div></div>
+
+</div><!-- /tab-html -->
+
+<!-- C# -->
+<div class="tab" id="tab-cs">
+
+<div class="section">
+<div class="section-title">Alapok & típusok</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-variable" aria-hidden="true"></i>Típusok & változók</div>
+<pre><span class="kw">int</span> szam = <span class="num">42</span>;
+<span class="kw">double</span> tort = <span class="num">3.14</span>;
+<span class="kw">bool</span> igaz = <span class="kw">true</span>;
+<span class="kw">string</span> nev = <span class="str">"Anna"</span>;
+<span class="kw">char</span> betu = <span class="str">'A'</span>;
+<span class="kw">var</span> auto = <span class="num">42</span>;    <span class="cmt">// típus következtetés</span>
+
+<span class="cmt">// Nullable</span>
+<span class="kw">int?</span> lehet_null = <span class="kw">null</span>;
+<span class="kw">string?</span> opcionalis = <span class="kw">null</span>;</pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-code" aria-hidden="true"></i>String interpoláció & konverzió</div>
+<pre><span class="kw">string</span> msg = <span class="str">$"Szia {nev}!"</span>;
+
+<span class="cmt">// Konverziók</span>
+<span class="kw">int</span> i = <span class="fn">int</span>.Parse(<span class="str">"42"</span>);
+<span class="kw">int</span>.TryParse(<span class="str">"abc"</span>, <span class="kw">out int</span> n); <span class="cmt">// biztonságos</span>
+<span class="kw">string</span> s = <span class="num">42</span>.ToString();
+<span class="kw">double</span> d = <span class="fn">Convert</span>.ToDouble(<span class="str">"3.14"</span>);</pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">Vezérlési szerkezetek</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-git-branch" aria-hidden="true"></i>Feltételek</div>
+<pre><span class="kw">if</span> (x > <span class="num">0</span>) { }
+<span class="kw">else if</span> (x < <span class="num">0</span>) { }
+<span class="kw">else</span> { }
+
+<span class="cmt">// Switch expression (C# 8+)</span>
+<span class="kw">string</span> jel = szam <span class="kw">switch</span> {
+  > <span class="num">0</span> => <span class="str">"pozitív"</span>,
+  < <span class="num">0</span> => <span class="str">"negatív"</span>,
+  _ => <span class="str">"nulla"</span>
+};
+
+<span class="cmt">// Ternáris</span>
+<span class="kw">var</span> r = x > <span class="num">0</span> ? <span class="str">"igen"</span> : <span class="str">"nem"</span>;</pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-refresh" aria-hidden="true"></i>Ciklusok</div>
+<pre><span class="kw">for</span> (<span class="kw">int</span> i = <span class="num">0</span>; i < <span class="num">5</span>; i++) { }
+
+<span class="kw">foreach</span> (<span class="kw">var</span> elem <span class="kw">in</span> lista) { }
+
+<span class="kw">while</span> (felt) { }
+
+<span class="kw">do</span> { } <span class="kw">while</span> (felt);
+
+<span class="cmt">// break, continue ugyanúgy</span></pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">Osztályok & metódusok</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-box" aria-hidden="true"></i>Osztály</div>
+<pre><span class="kw">public class</span> <span class="fn">Auto</span> {
+  <span class="kw">public string</span> Marka { <span class="kw">get</span>; <span class="kw">set</span>; }
+  <span class="kw">private int</span> _ev;
+
+  <span class="kw">public</span> <span class="fn">Auto</span>(<span class="kw">string</span> marka, <span class="kw">int</span> ev) {
+    Marka = marka;
+    _ev = ev;
+  }
+
+  <span class="kw">public string</span> <span class="fn">Info</span>() =>
+    <span class="str">$"{Marka} ({_ev})"</span>;
+}</pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-arrows-right-left" aria-hidden="true"></i>Interface & öröklés</div>
+<pre><span class="kw">interface</span> <span class="fn">IAllatHang</span> {
+  <span class="kw">string</span> <span class="fn">Hangot</span>();
+}
+
+<span class="kw">class</span> <span class="fn">Kutya</span> : <span class="fn">IAllatHang</span> {
+  <span class="kw">public string</span> <span class="fn">Hangot</span>() =>
+    <span class="str">"Vau!"</span>;
+}
+
+<span class="cmt">// Öröklés</span>
+<span class="kw">class</span> <span class="fn">SportAuto</span> : <span class="fn">Auto</span> {
+  <span class="kw">public</span> <span class="fn">SportAuto</span>() : <span class="kw">base</span>(<span class="str">"BMW"</span>, <span class="num">2024</span>) {}
+}</pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">LINQ & Collections</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-list-search" aria-hidden="true"></i>LINQ</div>
+<pre><span class="kw">var</span> lista = <span class="kw">new</span> List&lt;<span class="kw">int</span>&gt; { <span class="num">1</span>,<span class="num">2</span>,<span class="num">3</span>,<span class="num">4</span>,<span class="num">5</span> };
+
+lista.<span class="fn">Where</span>(x => x > <span class="num">2</span>)
+lista.<span class="fn">Select</span>(x => x * <span class="num">2</span>)
+lista.<span class="fn">OrderBy</span>(x => x)
+lista.<span class="fn">FirstOrDefault</span>()
+lista.<span class="fn">Any</span>(x => x > <span class="num">4</span>)   <span class="cmt">// bool</span>
+lista.<span class="fn">Count</span>()
+lista.<span class="fn">Sum</span>()
+lista.<span class="fn">ToList</span>() / .<span class="fn">ToArray</span>()</pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-clock" aria-hidden="true"></i>Async & hibakezelés</div>
+<pre><span class="kw">public async</span> Task&lt;<span class="kw">string</span>&gt; <span class="fn">LekérAsync</span>() {
+  <span class="kw">await</span> Task.Delay(<span class="num">1000</span>);
+  <span class="kw">return</span> <span class="str">"kész"</span>;
+}
+
+<span class="kw">try</span> {
+  <span class="kw">var</span> res = <span class="kw">await</span> <span class="fn">LekérAsync</span>();
+} <span class="kw">catch</span> (Exception e) {
+  Console.<span class="fn">WriteLine</span>(e.Message);
+} <span class="kw">finally</span> { }</pre></div>
+</div></div>
+
+</div><!-- /tab-cs -->
+
+<!-- MySQL -->
+<div class="tab" id="tab-sql">
+
+<div class="section">
+<div class="section-title">Táblák & adatok kezelése</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-table" aria-hidden="true"></i>Tábla létrehozása</div>
+<pre><span class="kw">CREATE TABLE</span> felhasznalok (
+  id       <span class="fn">INT</span> <span class="kw">AUTO_INCREMENT PRIMARY KEY</span>,
+  nev      <span class="fn">VARCHAR</span>(<span class="num">100</span>) <span class="kw">NOT NULL</span>,
+  email    <span class="fn">VARCHAR</span>(<span class="num">255</span>) <span class="kw">UNIQUE NOT NULL</span>,
+  kor      <span class="fn">INT</span>,
+  letrehozva <span class="fn">DATETIME</span>
+    <span class="kw">DEFAULT</span> CURRENT_TIMESTAMP
+);</pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-edit" aria-hidden="true"></i>Tábla módosítása</div>
+<pre><span class="kw">ALTER TABLE</span> felhasznalok
+  <span class="kw">ADD COLUMN</span> varos <span class="fn">VARCHAR</span>(<span class="num">100</span>);
+
+<span class="kw">ALTER TABLE</span> felhasznalok
+  <span class="kw">MODIFY COLUMN</span> kor <span class="fn">TINYINT UNSIGNED</span>;
+
+<span class="kw">ALTER TABLE</span> felhasznalok
+  <span class="kw">DROP COLUMN</span> varos;
+
+<span class="kw">DROP TABLE</span> felhasznalok;
+<span class="kw">TRUNCATE TABLE</span> felhasznalok; <span class="cmt">-- üríti</span></pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">CRUD műveletek</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-database" aria-hidden="true"></i>INSERT, UPDATE, DELETE</div>
+<pre><span class="kw">INSERT INTO</span> felhasznalok (nev, email, kor)
+<span class="kw">VALUES</span> (<span class="str">'Anna'</span>, <span class="str">'a@b.hu'</span>, <span class="num">25</span>);
+
+<span class="kw">UPDATE</span> felhasznalok
+  <span class="kw">SET</span> kor = <span class="num">26</span>, nev = <span class="str">'Anna K'</span>
+  <span class="kw">WHERE</span> id = <span class="num">1</span>;
+
+<span class="kw">DELETE FROM</span> felhasznalok
+  <span class="kw">WHERE</span> id = <span class="num">1</span>;</pre>
+<div class="tip">Mindig használj WHERE-t UPDATE és DELETE esetén!</div>
+</div>
+<div class="card"><div class="card-title"><i class="ti ti-search" aria-hidden="true"></i>SELECT alapok</div>
+<pre><span class="kw">SELECT</span> * <span class="kw">FROM</span> felhasznalok;
+
+<span class="kw">SELECT</span> nev, email
+  <span class="kw">FROM</span> felhasznalok
+  <span class="kw">WHERE</span> kor > <span class="num">18</span>
+    <span class="kw">AND</span> nev <span class="kw">LIKE</span> <span class="str">'A%'</span>
+  <span class="kw">ORDER BY</span> nev <span class="kw">ASC</span>
+  <span class="kw">LIMIT</span> <span class="num">10</span> <span class="kw">OFFSET</span> <span class="num">20</span>;</pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">JOIN-ok</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-arrows-join" aria-hidden="true"></i>JOIN típusok</div>
+<pre><span class="cmt">-- INNER JOIN: közös sorok</span>
+<span class="kw">SELECT</span> f.nev, r.cim
+  <span class="kw">FROM</span> felhasznalok f
+  <span class="kw">INNER JOIN</span> rendelesek r
+    <span class="kw">ON</span> f.id = r.felhaszn_id;
+
+<span class="cmt">-- LEFT JOIN: minden bal sor + egyező jobb</span>
+<span class="kw">SELECT</span> f.nev, r.cim
+  <span class="kw">FROM</span> felhasznalok f
+  <span class="kw">LEFT JOIN</span> rendelesek r
+    <span class="kw">ON</span> f.id = r.felhaszn_id;</pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-chart-bar" aria-hidden="true"></i>Aggregáció & GROUP BY</div>
+<pre><span class="kw">SELECT</span>
+  varos,
+  <span class="fn">COUNT</span>(*) <span class="kw">AS</span> db,
+  <span class="fn">AVG</span>(kor) <span class="kw">AS</span> atlag_kor,
+  <span class="fn">MAX</span>(kor) <span class="kw">AS</span> max_kor,
+  <span class="fn">MIN</span>(kor) <span class="kw">AS</span> min_kor,
+  <span class="fn">SUM</span>(fizetes) <span class="kw">AS</span> ossz
+<span class="kw">FROM</span> felhasznalok
+<span class="kw">GROUP BY</span> varos
+<span class="kw">HAVING</span> <span class="fn">COUNT</span>(*) > <span class="num">5</span>
+<span class="kw">ORDER BY</span> db <span class="kw">DESC</span>;</pre></div>
+</div></div>
+
+<div class="section">
+<div class="section-title">Indexek & alkérdések</div>
+<div class="cards">
+<div class="card"><div class="card-title"><i class="ti ti-bolt" aria-hidden="true"></i>Indexek</div>
+<pre><span class="cmt">-- Index létrehozása (gyorsabb keresés)</span>
+<span class="kw">CREATE INDEX</span> idx_email
+  <span class="kw">ON</span> felhasznalok(email);
+
+<span class="kw">CREATE UNIQUE INDEX</span> idx_nev
+  <span class="kw">ON</span> felhasznalok(nev);
+
+<span class="kw">DROP INDEX</span> idx_email
+  <span class="kw">ON</span> felhasznalok;</pre></div>
+<div class="card"><div class="card-title"><i class="ti ti-braces" aria-hidden="true"></i>Alkérdések & hasznos függvények</div>
+<pre><span class="kw">SELECT</span> * <span class="kw">FROM</span> felhasznalok
+  <span class="kw">WHERE</span> id <span class="kw">IN</span> (
+    <span class="kw">SELECT</span> felhaszn_id
+    <span class="kw">FROM</span> rendelesek
+  );
+
+<span class="fn">NOW</span>()           <span class="cmt">-- jelenlegi dátum/idő</span>
+<span class="fn">DATE_FORMAT</span>(d, <span class="str">'%Y-%m-%d'</span>)
+<span class="fn">CONCAT</span>(nev, <span class="str">' - '</span>, email)
+<span class="fn">IFNULL</span>(mezo, <span class="str">'alapérték'</span>)
+<span class="fn">COALESCE</span>(a, b, c) <span class="cmt">-- első nem null</span></pre></div>
+</div></div>
+
+</div><!-- /tab-sql -->
+</div>
+
+<script>
+function show(name){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('active'));
+  document.getElementById('tab-'+name).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
