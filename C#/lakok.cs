@@ -10,7 +10,7 @@ namespace KD_panelház
     internal class Program
     {
         /*
-         * MM- panelház
+         * MM- panelház a
          */
 
         static void Main(string[] args)
