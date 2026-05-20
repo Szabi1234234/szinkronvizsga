@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Világi Tények</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body id="body">
+    <header>
+      <p>vilagi-tenyek.hu</p>
+      <a href="#1">Tudáspróba</a>
+      <a href="https://instagram.com/tamasiphoto" target="_blank">Támogatás</a>
+    </header>
+
+    <section id="1">
+      <h1>Tudáspróba</h1>
+
+      <form class="quiz" action="index.html" method="get">
+        <h2>Melyik a Föld legmélyebb pontja az óceánokban?</h2>
+        <input type="radio" name="melyseg" id="q1-1" value="q1-1" />
+        <label for="q1-1">A) Puerto-Rico-i árok</label><br />
+        <input type="radio" name="melyseg" id="q1-2" value="q1-2" />
+        <label for="q1-2">B) Mariana-árok</label><br />
+        <input type="radio" name="melyseg" id="q1-3" value="q1-3" />
+        <label for="q1-3">C) Jáva-árok</label><br />
+        <input type="radio" name="melyseg" id="q1-4" value="q1-4" />
+        <label for="q1-4">D) Tonga-árok</label><br />
+        <div id="kerdes1"></div>
+
+        <h2>Az alábbiak közül mely országok határosak Magyarországgal?</h2>
+        <input type="checkbox" name="hatar" id="q2-1" value="q2-1" />
+        <label for="q2-1">A) Szlovákia</label><br />
+        <input type="checkbox" name="hatar" id="q2-2" value="q2-2" />
+        <label for="q2-2">B) Csehország</label><br />
+        <input type="checkbox" name="hatar" id="q2-3" value="q2-3" />
+        <label for="q2-3">C) Horvátország</label><br />
+        <input type="checkbox" name="hatar" id="q2-4" value="q2-4" />
+        <label for="q2-4">D) Ukrajna</label><br />
+        <div id="kerdes2"></div>
+
+        <h2>Hogy hívják Japán fővárosát?</h2>
+        <input type="text" name="fovaros" id="fovaros" /><br /><br />
+        <div id="kerdes3"></div>
+
+        <h2>A Föld hány %-át borítja víz?</h2>
+        <input
+          type="range"
+          name="fold-viz"
+          id="fold-viz"
+          min="0"
+          max="100"
+        /><br /><br />
+        <div id="kerdes4"></div>
+
+        <h2>Egészítsd ki az állítást a megfelelő opciókkal</h2>
+        <p>A(z)</p>
+        <select name="folyo1" id="folyo1">
+          <option value="nilus">Nílus</option>
+          <option value="amazonas">Amazonas</option>
+          <option value="volga">Volga</option>
+          <option value="duna">Duna</option>
+        </select>
+        <p>folyó a világ leghosszabb folyója, amely a(z)</p>
+        <select name="folyo2" id="folyo2">
+          <option value="azsia">Ázsia</option>
+          <option value="afrika">Afrika</option>
+          <option value="amerika">Dél-Amerika</option>
+          <option value="europa">Európa</option>
+        </select>
+        <p>kontinensen található.</p>
+        <div id="kerdes5"></div>
+
+        <h2>Milyen színű a háttered?</h2>
+        <input type="color" name="szin" id="szin" /><br /><br />
+        <div id="kerdes6"></div>
+
+        <input type="submit" value="Beküldés" />
+      </form>
+    </section>
+
+    <script>
+      let url = window.location.search;
+      if (url.includes("?")) {
+        let valaszok = url.split("?")[1];
+        let kulonvalaszok = valaszok.split("&");
+        if (kulonvalaszok[0].split("=")[1] == "q1-2") {
+          document.getElementById("kerdes1").innerHTML =
+            "<span style='color: green;'>Helyes válasz!</span>";
+        } else {
+          document.getElementById("kerdes1").innerHTML =
+            "<span style='color: red;'>Helytelen válasz!</span>";
+        }
+
+        let i = 1;
+        let jok = 0;
+        let osszes = 0;
+
+        while (
+          i < kulonvalaszok.length &&
+          kulonvalaszok[i].startsWith("hatar")
+        ) {
+          osszes++;
+          let ertek = kulonvalaszok[i].split("=")[1];
+
+          if (ertek === "q2-1" || ertek === "q2-3" || ertek === "q2-4") {
+            jok++;
+          }
+          i++;
+        }
+
+        if (jok === 3 && osszes === 3) {
+          document.getElementById("kerdes2").innerHTML =
+            "<span style='color: green;'>Helyes válasz!</span>";
+        } else {
+          document.getElementById("kerdes2").innerHTML =
+            "<span style='color: red;'>Helytelen válasz!</span>";
+        }
+
+        let fovaros = kulonvalaszok[i].split("=")[1];
+        if (
+          decodeURIComponent(fovaros).toLowerCase() === "tokyo" ||
+          decodeURIComponent(fovaros).toLowerCase() === "tokió"
+        ) {
+          document.getElementById("kerdes3").innerHTML =
+            "<span style='color: green;'>Helyes válasz!</span>";
+        } else {
+          document.getElementById("kerdes3").innerHTML =
+            "<span style='color: red;'>Helytelen válasz!</span>";
+        }
+
+        i++;
+        document.getElementById("kerdes4").innerHTML =
+          "A Föld <strong>71%</strong>-át borítja víz. A te válaszod: <strong>" +
+          kulonvalaszok[i].split("=")[1] +
+          "%</strong>";
+
+        i++;
+        document.getElementById("kerdes5").innerHTML =
+          "A válaszod: " + kulonvalaszok[i].split("=")[1];
+
+        i++;
+        i++;
+        let szin = kulonvalaszok[i].split("=")[1];
+        szin = decodeURIComponent(szin);
+        document.getElementById("body").style.backgroundColor = szin;
+        document.getElementById("kerdes6").innerHTML =
+          "A háttér színe megváltozott erre: " + szin;
+      }
+    </script>
+  </body>
+</html>

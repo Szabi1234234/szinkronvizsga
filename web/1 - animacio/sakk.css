@@ -1,0 +1,52 @@
+body {
+    background-color: green;
+    perspective: 20cm;
+}   
+
+:root {
+    --size: 50px;
+}
+
+.tabla {
+    width: calc(var(--size) * 8);
+    height: calc(var(--size) * 8);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    animation: tabla_forog 2s linear infinite;
+}
+
+.negyzet {
+    width: var(--size);
+    height: var(--size);
+}
+
+.sor {
+    transform-style: preserve-3d;
+}
+
+.tabla div:nth-child(odd) div:nth-child(odd){
+    background-color: white;
+}
+
+.tabla div:nth-child(even) div:nth-child(even) {
+    background-color: white;
+ }
+
+.tabla div:nth-child(even) div:nth-child(odd){
+    background-color: black;
+}
+
+.tabla div:nth-child(odd) div:nth-child(even) {
+    background-color: black;
+}
+
+@keyframes tabla_forog {
+    0% {
+        transform: rotateY(0deg);
+        
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}

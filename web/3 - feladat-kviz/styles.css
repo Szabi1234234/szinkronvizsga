@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #3b3b3b;
+    color: white;
+    padding: 10px 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+header p {
+    text-align: left;
+    padding: 2em;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header a {
+    font-size: 1.5em;
+    margin-left: 20px;
+    padding: 0.3em;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    transition: 0.2s;
+    background-color: rgb(0, 0, 0);
+}
+
+section {
+    text-align: center;
+    margin: 20px;
+}
