@@ -1,8 +1,0 @@
-H:\KD-2D-tomb\KD-2D-tomb\bin\Debug\KD-2D-tomb.exe.config
-H:\KD-2D-tomb\KD-2D-tomb\bin\Debug\KD-2D-tomb.exe
-H:\KD-2D-tomb\KD-2D-tomb\bin\Debug\KD-2D-tomb.pdb
-H:\KD-2D-tomb\KD-2D-tomb\obj\Debug\KD-2D-tomb.csproj.AssemblyReference.cache
-H:\KD-2D-tomb\KD-2D-tomb\obj\Debug\KD-2D-tomb.csproj.CoreCompileInputs.cache
-H:\KD-2D-tomb\KD-2D-tomb\obj\Debug\KD-2D-tomb.exe
-H:\KD-2D-tomb\KD-2D-tomb\obj\Debug\KD-2D-tomb.pdb
-H:\KD-2D-tomb\KD-2D-tomb\obj\Debug\KD-2D-tomb.exe.config

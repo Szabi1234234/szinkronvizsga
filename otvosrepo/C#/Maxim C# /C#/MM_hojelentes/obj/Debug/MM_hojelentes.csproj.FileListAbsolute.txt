@@ -1,8 +1,0 @@
-H:\c#\MM_hojelentes\bin\Debug\MM_hojelentes.exe.config
-H:\c#\MM_hojelentes\bin\Debug\MM_hojelentes.exe
-H:\c#\MM_hojelentes\bin\Debug\MM_hojelentes.pdb
-H:\c#\MM_hojelentes\obj\Debug\MM_hojelentes.csproj.AssemblyReference.cache
-H:\c#\MM_hojelentes\obj\Debug\MM_hojelentes.csproj.CoreCompileInputs.cache
-H:\c#\MM_hojelentes\obj\Debug\MM_hojelentes.exe
-H:\c#\MM_hojelentes\obj\Debug\MM_hojelentes.pdb
-H:\c#\MM_hojelentes\obj\Debug\MM_hojelentes.exe.config

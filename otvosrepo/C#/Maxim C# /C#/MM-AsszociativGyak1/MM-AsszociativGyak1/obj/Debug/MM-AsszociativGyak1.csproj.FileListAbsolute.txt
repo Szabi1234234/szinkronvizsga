@@ -1,8 +1,0 @@
-H:\c#\MM-AsszociativGyak1\MM-AsszociativGyak1\bin\Debug\MM-AsszociativGyak1.exe.config
-H:\c#\MM-AsszociativGyak1\MM-AsszociativGyak1\bin\Debug\MM-AsszociativGyak1.exe
-H:\c#\MM-AsszociativGyak1\MM-AsszociativGyak1\bin\Debug\MM-AsszociativGyak1.pdb
-H:\c#\MM-AsszociativGyak1\MM-AsszociativGyak1\obj\Debug\MM-AsszociativGyak1.csproj.AssemblyReference.cache
-H:\c#\MM-AsszociativGyak1\MM-AsszociativGyak1\obj\Debug\MM-AsszociativGyak1.csproj.CoreCompileInputs.cache
-H:\c#\MM-AsszociativGyak1\MM-AsszociativGyak1\obj\Debug\MM-AsszociativGyak1.exe
-H:\c#\MM-AsszociativGyak1\MM-AsszociativGyak1\obj\Debug\MM-AsszociativGyak1.pdb
-H:\c#\MM-AsszociativGyak1\MM-AsszociativGyak1\obj\Debug\MM-AsszociativGyak1.exe.config

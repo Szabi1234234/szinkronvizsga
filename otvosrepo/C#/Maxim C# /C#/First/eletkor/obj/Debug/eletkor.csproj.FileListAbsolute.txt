@@ -1,8 +1,0 @@
-H:\c#\First\eletkor\bin\Debug\eletkor.exe.config
-H:\c#\First\eletkor\bin\Debug\eletkor.exe
-H:\c#\First\eletkor\bin\Debug\eletkor.pdb
-H:\c#\First\eletkor\obj\Debug\eletkor.csproj.AssemblyReference.cache
-H:\c#\First\eletkor\obj\Debug\eletkor.csproj.CoreCompileInputs.cache
-H:\c#\First\eletkor\obj\Debug\eletkor.exe
-H:\c#\First\eletkor\obj\Debug\eletkor.pdb
-H:\c#\First\eletkor\obj\Debug\eletkor.exe.config

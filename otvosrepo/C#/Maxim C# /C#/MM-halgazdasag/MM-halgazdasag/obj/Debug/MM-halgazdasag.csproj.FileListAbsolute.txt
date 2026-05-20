@@ -1,8 +1,0 @@
-H:\c#\MM-halgazdasag\MM-halgazdasag\bin\Debug\MM-halgazdasag.exe.config
-H:\c#\MM-halgazdasag\MM-halgazdasag\bin\Debug\MM-halgazdasag.exe
-H:\c#\MM-halgazdasag\MM-halgazdasag\bin\Debug\MM-halgazdasag.pdb
-H:\c#\MM-halgazdasag\MM-halgazdasag\obj\Debug\MM-halgazdasag.csproj.AssemblyReference.cache
-H:\c#\MM-halgazdasag\MM-halgazdasag\obj\Debug\MM-halgazdasag.csproj.CoreCompileInputs.cache
-H:\c#\MM-halgazdasag\MM-halgazdasag\obj\Debug\MM-halgazdasag.exe
-H:\c#\MM-halgazdasag\MM-halgazdasag\obj\Debug\MM-halgazdasag.pdb
-H:\c#\MM-halgazdasag\MM-halgazdasag\obj\Debug\MM-halgazdasag.exe.config

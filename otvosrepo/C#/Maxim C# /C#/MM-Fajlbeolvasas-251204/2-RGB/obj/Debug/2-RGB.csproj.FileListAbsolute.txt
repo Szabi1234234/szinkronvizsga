@@ -1,8 +1,0 @@
-H:\c#\MM-Fajlbeolvasas-251204\2-RGB\bin\Debug\2-RGB.exe.config
-H:\c#\MM-Fajlbeolvasas-251204\2-RGB\bin\Debug\2-RGB.exe
-H:\c#\MM-Fajlbeolvasas-251204\2-RGB\bin\Debug\2-RGB.pdb
-H:\c#\MM-Fajlbeolvasas-251204\2-RGB\obj\Debug\2-RGB.csproj.AssemblyReference.cache
-H:\c#\MM-Fajlbeolvasas-251204\2-RGB\obj\Debug\2-RGB.csproj.CoreCompileInputs.cache
-H:\c#\MM-Fajlbeolvasas-251204\2-RGB\obj\Debug\2-RGB.exe
-H:\c#\MM-Fajlbeolvasas-251204\2-RGB\obj\Debug\2-RGB.pdb
-H:\c#\MM-Fajlbeolvasas-251204\2-RGB\obj\Debug\2-RGB.exe.config

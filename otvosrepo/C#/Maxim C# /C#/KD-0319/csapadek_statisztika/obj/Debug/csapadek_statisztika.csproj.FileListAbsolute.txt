@@ -1,7 +1,0 @@
-H:\Tantárgyak\Asztali alkalmazások fejlesztése - 11.D-S1\03.19\KD-0319\csapadek_statisztika\bin\Debug\csapadek_statisztika.exe.config
-H:\Tantárgyak\Asztali alkalmazások fejlesztése - 11.D-S1\03.19\KD-0319\csapadek_statisztika\bin\Debug\csapadek_statisztika.exe
-H:\Tantárgyak\Asztali alkalmazások fejlesztése - 11.D-S1\03.19\KD-0319\csapadek_statisztika\bin\Debug\csapadek_statisztika.pdb
-H:\Tantárgyak\Asztali alkalmazások fejlesztése - 11.D-S1\03.19\KD-0319\csapadek_statisztika\obj\Debug\csapadek_statisztika.csproj.AssemblyReference.cache
-H:\Tantárgyak\Asztali alkalmazások fejlesztése - 11.D-S1\03.19\KD-0319\csapadek_statisztika\obj\Debug\csapadek_statisztika.csproj.CoreCompileInputs.cache
-H:\Tantárgyak\Asztali alkalmazások fejlesztése - 11.D-S1\03.19\KD-0319\csapadek_statisztika\obj\Debug\csapadek_statisztika.exe
-H:\Tantárgyak\Asztali alkalmazások fejlesztése - 11.D-S1\03.19\KD-0319\csapadek_statisztika\obj\Debug\csapadek_statisztika.pdb

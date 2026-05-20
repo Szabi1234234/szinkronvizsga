@@ -1,8 +1,0 @@
-H:\c#\First\Hellox\bin\Debug\Hellox.exe.config
-H:\c#\First\Hellox\bin\Debug\Hellox.exe
-H:\c#\First\Hellox\bin\Debug\Hellox.pdb
-H:\c#\First\Hellox\obj\Debug\Hellox.csproj.AssemblyReference.cache
-H:\c#\First\Hellox\obj\Debug\Hellox.csproj.CoreCompileInputs.cache
-H:\c#\First\Hellox\obj\Debug\Hellox.exe
-H:\c#\First\Hellox\obj\Debug\Hellox.pdb
-H:\c#\First\Hellox\obj\Debug\Hellox.exe.config

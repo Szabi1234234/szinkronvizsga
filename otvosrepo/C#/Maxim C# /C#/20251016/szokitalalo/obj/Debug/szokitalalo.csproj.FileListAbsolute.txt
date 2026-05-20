@@ -1,8 +1,0 @@
-H:\c#\20251016\szokitalalo\bin\Debug\szokitalalo.exe.config
-H:\c#\20251016\szokitalalo\bin\Debug\szokitalalo.exe
-H:\c#\20251016\szokitalalo\bin\Debug\szokitalalo.pdb
-H:\c#\20251016\szokitalalo\obj\Debug\szokitalalo.csproj.AssemblyReference.cache
-H:\c#\20251016\szokitalalo\obj\Debug\szokitalalo.csproj.CoreCompileInputs.cache
-H:\c#\20251016\szokitalalo\obj\Debug\szokitalalo.exe
-H:\c#\20251016\szokitalalo\obj\Debug\szokitalalo.pdb
-H:\c#\20251016\szokitalalo\obj\Debug\szokitalalo.exe.config

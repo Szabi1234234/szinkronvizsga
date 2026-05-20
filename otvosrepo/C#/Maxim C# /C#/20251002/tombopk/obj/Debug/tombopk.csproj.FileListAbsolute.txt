@@ -1,8 +1,0 @@
-H:\c#\20251002\tombopk\bin\Debug\tombopk.exe.config
-H:\c#\20251002\tombopk\bin\Debug\tombopk.exe
-H:\c#\20251002\tombopk\bin\Debug\tombopk.pdb
-H:\c#\20251002\tombopk\obj\Debug\tombopk.csproj.AssemblyReference.cache
-H:\c#\20251002\tombopk\obj\Debug\tombopk.csproj.CoreCompileInputs.cache
-H:\c#\20251002\tombopk\obj\Debug\tombopk.exe
-H:\c#\20251002\tombopk\obj\Debug\tombopk.pdb
-H:\c#\20251002\tombopk\obj\Debug\tombopk.exe.config

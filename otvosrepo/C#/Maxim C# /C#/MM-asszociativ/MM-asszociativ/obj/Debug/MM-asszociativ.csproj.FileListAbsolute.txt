@@ -1,8 +1,0 @@
-H:\c#\MM-asszociativ\MM-asszociativ\bin\Debug\MM-asszociativ.exe.config
-H:\c#\MM-asszociativ\MM-asszociativ\bin\Debug\MM-asszociativ.exe
-H:\c#\MM-asszociativ\MM-asszociativ\bin\Debug\MM-asszociativ.pdb
-H:\c#\MM-asszociativ\MM-asszociativ\obj\Debug\MM-asszociativ.csproj.AssemblyReference.cache
-H:\c#\MM-asszociativ\MM-asszociativ\obj\Debug\MM-asszociativ.csproj.CoreCompileInputs.cache
-H:\c#\MM-asszociativ\MM-asszociativ\obj\Debug\MM-asszociativ.exe
-H:\c#\MM-asszociativ\MM-asszociativ\obj\Debug\MM-asszociativ.pdb
-H:\c#\MM-asszociativ\MM-asszociativ\obj\Debug\MM-asszociativ.exe.config

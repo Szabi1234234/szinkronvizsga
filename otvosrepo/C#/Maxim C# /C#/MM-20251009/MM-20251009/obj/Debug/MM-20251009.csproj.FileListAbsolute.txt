@@ -1,8 +1,0 @@
-H:\c#\MM-20251009\MM-20251009\bin\Debug\MM-20251009.exe.config
-H:\c#\MM-20251009\MM-20251009\bin\Debug\MM-20251009.exe
-H:\c#\MM-20251009\MM-20251009\bin\Debug\MM-20251009.pdb
-H:\c#\MM-20251009\MM-20251009\obj\Debug\MM-20251009.csproj.AssemblyReference.cache
-H:\c#\MM-20251009\MM-20251009\obj\Debug\MM-20251009.csproj.CoreCompileInputs.cache
-H:\c#\MM-20251009\MM-20251009\obj\Debug\MM-20251009.exe
-H:\c#\MM-20251009\MM-20251009\obj\Debug\MM-20251009.pdb
-H:\c#\MM-20251009\MM-20251009\obj\Debug\MM-20251009.exe.config

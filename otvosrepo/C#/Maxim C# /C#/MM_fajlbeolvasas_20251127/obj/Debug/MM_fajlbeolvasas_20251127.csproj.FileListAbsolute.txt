@@ -1,8 +1,0 @@
-H:\c#\MM_fajlbeolvasas_20251127\bin\Debug\MM_fajlbeolvasas_20251127.exe.config
-H:\c#\MM_fajlbeolvasas_20251127\bin\Debug\MM_fajlbeolvasas_20251127.exe
-H:\c#\MM_fajlbeolvasas_20251127\bin\Debug\MM_fajlbeolvasas_20251127.pdb
-H:\c#\MM_fajlbeolvasas_20251127\obj\Debug\MM_fajlbeolvasas_20251127.csproj.AssemblyReference.cache
-H:\c#\MM_fajlbeolvasas_20251127\obj\Debug\MM_fajlbeolvasas_20251127.csproj.CoreCompileInputs.cache
-H:\c#\MM_fajlbeolvasas_20251127\obj\Debug\MM_fajlbeolvasas_20251127.exe
-H:\c#\MM_fajlbeolvasas_20251127\obj\Debug\MM_fajlbeolvasas_20251127.pdb
-H:\c#\MM_fajlbeolvasas_20251127\obj\Debug\MM_fajlbeolvasas_20251127.exe.config

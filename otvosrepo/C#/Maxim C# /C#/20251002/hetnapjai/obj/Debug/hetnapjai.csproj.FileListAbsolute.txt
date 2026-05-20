@@ -1,8 +1,0 @@
-H:\c#\20251002\hetnapjai\bin\Debug\hetnapjai.exe.config
-H:\c#\20251002\hetnapjai\bin\Debug\hetnapjai.exe
-H:\c#\20251002\hetnapjai\bin\Debug\hetnapjai.pdb
-H:\c#\20251002\hetnapjai\obj\Debug\hetnapjai.csproj.AssemblyReference.cache
-H:\c#\20251002\hetnapjai\obj\Debug\hetnapjai.csproj.CoreCompileInputs.cache
-H:\c#\20251002\hetnapjai\obj\Debug\hetnapjai.exe
-H:\c#\20251002\hetnapjai\obj\Debug\hetnapjai.pdb
-H:\c#\20251002\hetnapjai\obj\Debug\hetnapjai.exe.config

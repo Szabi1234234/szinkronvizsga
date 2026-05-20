@@ -1,8 +1,0 @@
-H:\c#\MM-Euro\MM-Euro\bin\Debug\MM-Euro.exe.config
-H:\c#\MM-Euro\MM-Euro\bin\Debug\MM-Euro.exe
-H:\c#\MM-Euro\MM-Euro\bin\Debug\MM-Euro.pdb
-H:\c#\MM-Euro\MM-Euro\obj\Debug\MM-Euro.csproj.AssemblyReference.cache
-H:\c#\MM-Euro\MM-Euro\obj\Debug\MM-Euro.csproj.CoreCompileInputs.cache
-H:\c#\MM-Euro\MM-Euro\obj\Debug\MM-Euro.exe
-H:\c#\MM-Euro\MM-Euro\obj\Debug\MM-Euro.pdb
-H:\c#\MM-Euro\MM-Euro\obj\Debug\MM-Euro.exe.config

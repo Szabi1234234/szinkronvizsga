@@ -1,8 +1,0 @@
-H:\MM-toto\MM-toto\bin\Debug\MM-toto.exe.config
-H:\MM-toto\MM-toto\bin\Debug\MM-toto.exe
-H:\MM-toto\MM-toto\bin\Debug\MM-toto.pdb
-H:\MM-toto\MM-toto\obj\Debug\MM-toto.csproj.AssemblyReference.cache
-H:\MM-toto\MM-toto\obj\Debug\MM-toto.csproj.CoreCompileInputs.cache
-H:\MM-toto\MM-toto\obj\Debug\MM-toto.exe
-H:\MM-toto\MM-toto\obj\Debug\MM-toto.pdb
-H:\MM-toto\MM-toto\obj\Debug\MM-toto.exe.config

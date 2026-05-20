@@ -1,8 +1,0 @@
-H:\MM-Elemek\MM-Elemek\bin\Debug\MM-Elemek.exe.config
-H:\MM-Elemek\MM-Elemek\bin\Debug\MM-Elemek.exe
-H:\MM-Elemek\MM-Elemek\bin\Debug\MM-Elemek.pdb
-H:\MM-Elemek\MM-Elemek\obj\Debug\MM-Elemek.csproj.AssemblyReference.cache
-H:\MM-Elemek\MM-Elemek\obj\Debug\MM-Elemek.csproj.CoreCompileInputs.cache
-H:\MM-Elemek\MM-Elemek\obj\Debug\MM-Elemek.exe
-H:\MM-Elemek\MM-Elemek\obj\Debug\MM-Elemek.pdb
-H:\MM-Elemek\MM-Elemek\obj\Debug\MM-Elemek.exe.config

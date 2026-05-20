@@ -1,8 +1,0 @@
-H:\KD-2D-tomb\KD-amoba\bin\Debug\KD-amoba.exe.config
-H:\KD-2D-tomb\KD-amoba\bin\Debug\KD-amoba.exe
-H:\KD-2D-tomb\KD-amoba\bin\Debug\KD-amoba.pdb
-H:\KD-2D-tomb\KD-amoba\obj\Debug\KD-amoba.csproj.AssemblyReference.cache
-H:\KD-2D-tomb\KD-amoba\obj\Debug\KD-amoba.csproj.CoreCompileInputs.cache
-H:\KD-2D-tomb\KD-amoba\obj\Debug\KD-amoba.exe
-H:\KD-2D-tomb\KD-amoba\obj\Debug\KD-amoba.pdb
-H:\KD-2D-tomb\KD-amoba\obj\Debug\KD-amoba.exe.config

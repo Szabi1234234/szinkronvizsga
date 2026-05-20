@@ -1,8 +1,0 @@
-H:\c#\MM-Fajlbeolvasas-251204\1-DNS\bin\Debug\1-DNS.exe.config
-H:\c#\MM-Fajlbeolvasas-251204\1-DNS\bin\Debug\1-DNS.exe
-H:\c#\MM-Fajlbeolvasas-251204\1-DNS\bin\Debug\1-DNS.pdb
-H:\c#\MM-Fajlbeolvasas-251204\1-DNS\obj\Debug\1-DNS.csproj.AssemblyReference.cache
-H:\c#\MM-Fajlbeolvasas-251204\1-DNS\obj\Debug\1-DNS.csproj.CoreCompileInputs.cache
-H:\c#\MM-Fajlbeolvasas-251204\1-DNS\obj\Debug\1-DNS.exe
-H:\c#\MM-Fajlbeolvasas-251204\1-DNS\obj\Debug\1-DNS.pdb
-H:\c#\MM-Fajlbeolvasas-251204\1-DNS\obj\Debug\1-DNS.exe.config

@@ -1,1 +1,0 @@
-# WB2023_OtvosLevente

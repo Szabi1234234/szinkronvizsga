@@ -1,2 +1,0 @@
-H:\c#\farkas\obj\Debug\farkas.csproj.AssemblyReference.cache
-H:\c#\farkas\obj\Debug\farkas.csproj.CoreCompileInputs.cache

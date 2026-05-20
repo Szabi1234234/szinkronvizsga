@@ -1,8 +1,0 @@
-H:\c#\20251016\MM_stringek\bin\Debug\MM_stringek.exe.config
-H:\c#\20251016\MM_stringek\bin\Debug\MM_stringek.exe
-H:\c#\20251016\MM_stringek\bin\Debug\MM_stringek.pdb
-H:\c#\20251016\MM_stringek\obj\Debug\MM_stringek.csproj.AssemblyReference.cache
-H:\c#\20251016\MM_stringek\obj\Debug\MM_stringek.csproj.CoreCompileInputs.cache
-H:\c#\20251016\MM_stringek\obj\Debug\MM_stringek.exe
-H:\c#\20251016\MM_stringek\obj\Debug\MM_stringek.pdb
-H:\c#\20251016\MM_stringek\obj\Debug\MM_stringek.exe.config
