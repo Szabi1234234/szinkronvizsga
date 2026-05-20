@@ -1,0 +1,8 @@
+C:\Users\molnarmaxim\source\repos\MM-Csapadek\MM-Csapadek\bin\Debug\MM-Csapadek.exe.config
+C:\Users\molnarmaxim\source\repos\MM-Csapadek\MM-Csapadek\bin\Debug\MM-Csapadek.exe
+C:\Users\molnarmaxim\source\repos\MM-Csapadek\MM-Csapadek\bin\Debug\MM-Csapadek.pdb
+C:\Users\molnarmaxim\source\repos\MM-Csapadek\MM-Csapadek\obj\Debug\MM-Csapadek.csproj.AssemblyReference.cache
+C:\Users\molnarmaxim\source\repos\MM-Csapadek\MM-Csapadek\obj\Debug\MM-Csapadek.csproj.CoreCompileInputs.cache
+C:\Users\molnarmaxim\source\repos\MM-Csapadek\MM-Csapadek\obj\Debug\MM-Csapadek.exe
+C:\Users\molnarmaxim\source\repos\MM-Csapadek\MM-Csapadek\obj\Debug\MM-Csapadek.pdb
+C:\Users\molnarmaxim\source\repos\MM-Csapadek\MM-Csapadek\obj\Debug\MM-Csapadek.exe.config

@@ -1,0 +1,28 @@
+/Users/otvoslevente/csharp_prog/Szintvizsgagyakorl/Kiadas/Kiadas/bin/Debug/net9.0/Kiadas
+/Users/otvoslevente/csharp_prog/Szintvizsgagyakorl/Kiadas/Kiadas/bin/Debug/net9.0/Kiadas.deps.json
+/Users/otvoslevente/csharp_prog/Szintvizsgagyakorl/Kiadas/Kiadas/bin/Debug/net9.0/Kiadas.runtimeconfig.json
+/Users/otvoslevente/csharp_prog/Szintvizsgagyakorl/Kiadas/Kiadas/bin/Debug/net9.0/Kiadas.dll
+/Users/otvoslevente/csharp_prog/Szintvizsgagyakorl/Kiadas/Kiadas/bin/Debug/net9.0/Kiadas.pdb
+/Users/otvoslevente/csharp_prog/Szintvizsgagyakorl/Kiadas/Kiadas/obj/Debug/net9.0/Kiadas.GeneratedMSBuildEditorConfig.editorconfig
+/Users/otvoslevente/csharp_prog/Szintvizsgagyakorl/Kiadas/Kiadas/obj/Debug/net9.0/Kiadas.AssemblyInfoInputs.cache
+/Users/otvoslevente/csharp_prog/Szintvizsgagyakorl/Kiadas/Kiadas/obj/Debug/net9.0/Kiadas.AssemblyInfo.cs
+/Users/otvoslevente/csharp_prog/Szintvizsgagyakorl/Kiadas/Kiadas/obj/Debug/net9.0/Kiadas.csproj.CoreCompileInputs.cache
+/Users/otvoslevente/csharp_prog/Szintvizsgagyakorl/Kiadas/Kiadas/obj/Debug/net9.0/Kiadas.dll
+/Users/otvoslevente/csharp_prog/Szintvizsgagyakorl/Kiadas/Kiadas/obj/Debug/net9.0/refint/Kiadas.dll
+/Users/otvoslevente/csharp_prog/Szintvizsgagyakorl/Kiadas/Kiadas/obj/Debug/net9.0/Kiadas.pdb
+/Users/otvoslevente/csharp_prog/Szintvizsgagyakorl/Kiadas/Kiadas/obj/Debug/net9.0/Kiadas.genruntimeconfig.cache
+/Users/otvoslevente/csharp_prog/Szintvizsgagyakorl/Kiadas/Kiadas/obj/Debug/net9.0/ref/Kiadas.dll
+/Users/otvoslevente/Desktop/Teljes feladatok - Komment/konyvkiadas/Kiadas/Kiadas/bin/Debug/net9.0/Kiadas
+/Users/otvoslevente/Desktop/Teljes feladatok - Komment/konyvkiadas/Kiadas/Kiadas/bin/Debug/net9.0/Kiadas.deps.json
+/Users/otvoslevente/Desktop/Teljes feladatok - Komment/konyvkiadas/Kiadas/Kiadas/bin/Debug/net9.0/Kiadas.runtimeconfig.json
+/Users/otvoslevente/Desktop/Teljes feladatok - Komment/konyvkiadas/Kiadas/Kiadas/bin/Debug/net9.0/Kiadas.dll
+/Users/otvoslevente/Desktop/Teljes feladatok - Komment/konyvkiadas/Kiadas/Kiadas/bin/Debug/net9.0/Kiadas.pdb
+/Users/otvoslevente/Desktop/Teljes feladatok - Komment/konyvkiadas/Kiadas/Kiadas/obj/Debug/net9.0/Kiadas.GeneratedMSBuildEditorConfig.editorconfig
+/Users/otvoslevente/Desktop/Teljes feladatok - Komment/konyvkiadas/Kiadas/Kiadas/obj/Debug/net9.0/Kiadas.AssemblyInfoInputs.cache
+/Users/otvoslevente/Desktop/Teljes feladatok - Komment/konyvkiadas/Kiadas/Kiadas/obj/Debug/net9.0/Kiadas.AssemblyInfo.cs
+/Users/otvoslevente/Desktop/Teljes feladatok - Komment/konyvkiadas/Kiadas/Kiadas/obj/Debug/net9.0/Kiadas.csproj.CoreCompileInputs.cache
+/Users/otvoslevente/Desktop/Teljes feladatok - Komment/konyvkiadas/Kiadas/Kiadas/obj/Debug/net9.0/Kiadas.dll
+/Users/otvoslevente/Desktop/Teljes feladatok - Komment/konyvkiadas/Kiadas/Kiadas/obj/Debug/net9.0/refint/Kiadas.dll
+/Users/otvoslevente/Desktop/Teljes feladatok - Komment/konyvkiadas/Kiadas/Kiadas/obj/Debug/net9.0/Kiadas.pdb
+/Users/otvoslevente/Desktop/Teljes feladatok - Komment/konyvkiadas/Kiadas/Kiadas/obj/Debug/net9.0/Kiadas.genruntimeconfig.cache
+/Users/otvoslevente/Desktop/Teljes feladatok - Komment/konyvkiadas/Kiadas/Kiadas/obj/Debug/net9.0/ref/Kiadas.dll

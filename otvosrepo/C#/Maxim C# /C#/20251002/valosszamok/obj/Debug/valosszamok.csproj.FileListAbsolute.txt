@@ -1,0 +1,12 @@
+H:\c#\20251002\valosszamok\bin\Debug\valosszamok.exe.config
+H:\c#\20251002\valosszamok\bin\Debug\valosszamok.exe
+H:\c#\20251002\valosszamok\bin\Debug\valosszamok.pdb
+H:\c#\20251002\valosszamok\obj\Debug\valosszamok.csproj.AssemblyReference.cache
+H:\c#\20251002\valosszamok\obj\Debug\valosszamok.csproj.CoreCompileInputs.cache
+H:\c#\20251002\valosszamok\obj\Debug\valosszamok.exe
+H:\c#\20251002\valosszamok\obj\Debug\valosszamok.pdb
+H:\c#\20251002\valosszamok\obj\Debug\valosszamok.exe.config
+H:\c#\20251002\valosszamok\bin\Debug\valosszamok.exe.manifest
+H:\c#\20251002\valosszamok\bin\Debug\valosszamok.application
+H:\c#\20251002\valosszamok\obj\Debug\valosszamok.exe.manifest
+H:\c#\20251002\valosszamok\obj\Debug\valosszamok.application

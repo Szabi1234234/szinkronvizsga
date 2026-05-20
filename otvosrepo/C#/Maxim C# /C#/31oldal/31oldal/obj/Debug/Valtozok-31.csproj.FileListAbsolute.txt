@@ -1,0 +1,8 @@
+H:\c#\31oldal\31oldal\bin\Debug\31oldal.exe.config
+H:\c#\31oldal\31oldal\bin\Debug\31oldal.exe
+H:\c#\31oldal\31oldal\bin\Debug\31oldal.pdb
+H:\c#\31oldal\31oldal\obj\Debug\Valtozok-31.csproj.AssemblyReference.cache
+H:\c#\31oldal\31oldal\obj\Debug\Valtozok-31.csproj.CoreCompileInputs.cache
+H:\c#\31oldal\31oldal\obj\Debug\31oldal.exe
+H:\c#\31oldal\31oldal\obj\Debug\31oldal.pdb
+H:\c#\31oldal\31oldal\obj\Debug\31oldal.exe.config

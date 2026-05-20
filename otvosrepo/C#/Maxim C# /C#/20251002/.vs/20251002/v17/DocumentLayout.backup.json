@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\c#\\20251002\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29A05B40-4C54-442D-B0E7-0BEF4361FEA6}|tombopk\\tombopk.csproj|h:\\c#\\20251002\\tombopk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29A05B40-4C54-442D-B0E7-0BEF4361FEA6}|tombopk\\tombopk.csproj|solutionrelative:tombopk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AAB4B0F-ABD8-4AF1-A27E-F8C587A214AD}|valosszamok\\valosszamok.csproj|h:\\c#\\20251002\\valosszamok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AAB4B0F-ABD8-4AF1-A27E-F8C587A214AD}|valosszamok\\valosszamok.csproj|solutionrelative:valosszamok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF53B19-5D82-40ED-83A2-47CF32314957}|hetnapjai\\hetnapjai.csproj|h:\\c#\\20251002\\hetnapjai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF53B19-5D82-40ED-83A2-47CF32314957}|hetnapjai\\hetnapjai.csproj|solutionrelative:hetnapjai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\20251002\\valosszamok\\Program.cs",
+              "RelativeDocumentMoniker": "valosszamok\\Program.cs",
+              "ToolTip": "H:\\c#\\20251002\\valosszamok\\Program.cs",
+              "RelativeToolTip": "valosszamok\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T11:30:45.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\20251002\\tombopk\\Program.cs",
+              "RelativeDocumentMoniker": "tombopk\\Program.cs",
+              "ToolTip": "H:\\c#\\20251002\\tombopk\\Program.cs",
+              "RelativeToolTip": "tombopk\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T11:33:39.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\20251002\\hetnapjai\\Program.cs",
+              "RelativeDocumentMoniker": "hetnapjai\\Program.cs",
+              "ToolTip": "H:\\c#\\20251002\\hetnapjai\\Program.cs",
+              "RelativeToolTip": "hetnapjai\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T12:44:12.162Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

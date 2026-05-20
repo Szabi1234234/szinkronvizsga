@@ -1,0 +1,8 @@
+H:\c#\First\tippmix\bin\Debug\tippmix.exe.config
+H:\c#\First\tippmix\bin\Debug\tippmix.exe
+H:\c#\First\tippmix\bin\Debug\tippmix.pdb
+H:\c#\First\tippmix\obj\Debug\tippmix.csproj.AssemblyReference.cache
+H:\c#\First\tippmix\obj\Debug\tippmix.csproj.CoreCompileInputs.cache
+H:\c#\First\tippmix\obj\Debug\tippmix.exe
+H:\c#\First\tippmix\obj\Debug\tippmix.pdb
+H:\c#\First\tippmix\obj\Debug\tippmix.exe.config

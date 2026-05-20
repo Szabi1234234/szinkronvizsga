@@ -1,0 +1,94 @@
+header {
+    width: 100%;
+    background-color: #1a3c34;
+    background-image: url("navigacio_fejlec.jpg");
+    font-size: 3em;
+    color: #fff;
+    text-decoration: underline overline;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 140px;
+    padding: 1.25rem 1rem;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    color: #1a3c34;
+}
+
+p {
+    text-align: justify;
+}
+
+#bevezeto {
+    width: 100%;
+}
+
+main {
+    width: 1600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 500px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.card img {
+    width: 480px;
+    display: block;
+    margin: auto;
+}
+
+.card img:hover {
+    animation: forog 3s linear;
+}
+
+@keyframes forog {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.szamolas {
+    width: 500px;
+    text-align: center;
+}
+
+a:any-link {
+    color: rgb(54, 0, 88);
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.kek {
+    background-color: #fde8d4;
+}
+
+.szamolas {
+    background-color: #fde8d4;
+}
+
+@media (max-width: 800px) {
+    main {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+    }
+}

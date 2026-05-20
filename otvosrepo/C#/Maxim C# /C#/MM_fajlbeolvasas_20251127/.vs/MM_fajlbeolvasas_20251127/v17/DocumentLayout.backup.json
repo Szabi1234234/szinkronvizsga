@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\c#\\MM_fajlbeolvasas_20251127\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80BF4E9B-6DF9-4368-9A4C-3DD9C6B9DAFD}|MM_fajlbeolvasas_20251127.csproj|h:\\c#\\mm_fajlbeolvasas_20251127\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BF4E9B-6DF9-4368-9A4C-3DD9C6B9DAFD}|MM_fajlbeolvasas_20251127.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D93D57D-C24F-4B49-94EE-40C4926232EE}|..\\farkas\\farkas.csproj|h:\\c#\\farkas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|H:\\c#\\MM_fajlbeolvasas_20251127\\bin\\Debug\\igeny.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\igeny.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|H:\\c#\\MM_tavok\\bin\\Debug\\tavok.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\MM_fajlbeolvasas_20251127\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "H:\\c#\\MM_fajlbeolvasas_20251127\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T12:21:49.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\farkas\\Program.cs",
+              "RelativeDocumentMoniker": "..\\farkas\\Program.cs",
+              "ToolTip": "H:\\c#\\farkas\\Program.cs",
+              "RelativeToolTip": "..\\farkas\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T13:50:18.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tavok.txt",
+              "DocumentMoniker": "H:\\c#\\MM_tavok\\bin\\Debug\\tavok.txt",
+              "RelativeDocumentMoniker": "..\\MM_tavok\\bin\\Debug\\tavok.txt",
+              "ToolTip": "H:\\c#\\MM_tavok\\bin\\Debug\\tavok.txt",
+              "RelativeToolTip": "..\\MM_tavok\\bin\\Debug\\tavok.txt",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-27T13:08:27.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "igeny.txt",
+              "DocumentMoniker": "H:\\c#\\MM_fajlbeolvasas_20251127\\bin\\Debug\\igeny.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\igeny.txt",
+              "ToolTip": "H:\\c#\\MM_fajlbeolvasas_20251127\\bin\\Debug\\igeny.txt",
+              "RelativeToolTip": "bin\\Debug\\igeny.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-27T12:13:47.618Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

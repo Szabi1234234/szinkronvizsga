@@ -1,0 +1,8 @@
+H:\c#\MM-Rekordok\bin\Debug\MM-Rekordok.exe.config
+H:\c#\MM-Rekordok\bin\Debug\MM-Rekordok.exe
+H:\c#\MM-Rekordok\bin\Debug\MM-Rekordok.pdb
+H:\c#\MM-Rekordok\obj\Debug\MM-Rekordok.csproj.AssemblyReference.cache
+H:\c#\MM-Rekordok\obj\Debug\MM-Rekordok.csproj.CoreCompileInputs.cache
+H:\c#\MM-Rekordok\obj\Debug\MM-Rekordok.exe
+H:\c#\MM-Rekordok\obj\Debug\MM-Rekordok.pdb
+H:\c#\MM-Rekordok\obj\Debug\MM-Rekordok.exe.config

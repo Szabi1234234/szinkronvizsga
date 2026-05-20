@@ -1,0 +1,7 @@
+H:\c#\54_3_lift\bin\Debug\54_3_lift.exe.config
+H:\c#\54_3_lift\bin\Debug\54_3_lift.exe
+H:\c#\54_3_lift\bin\Debug\54_3_lift.pdb
+H:\c#\54_3_lift\obj\Debug\54_3_lift.csproj.AssemblyReference.cache
+H:\c#\54_3_lift\obj\Debug\54_3_lift.csproj.CoreCompileInputs.cache
+H:\c#\54_3_lift\obj\Debug\54_3_lift.exe
+H:\c#\54_3_lift\obj\Debug\54_3_lift.pdb

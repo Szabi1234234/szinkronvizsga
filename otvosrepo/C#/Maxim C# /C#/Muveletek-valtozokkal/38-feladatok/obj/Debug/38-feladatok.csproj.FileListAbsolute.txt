@@ -1,0 +1,8 @@
+H:\c#\Muveletek-valtozokkal\38-feladatok\bin\Debug\38-feladatok.exe.config
+H:\c#\Muveletek-valtozokkal\38-feladatok\bin\Debug\38-feladatok.exe
+H:\c#\Muveletek-valtozokkal\38-feladatok\bin\Debug\38-feladatok.pdb
+H:\c#\Muveletek-valtozokkal\38-feladatok\obj\Debug\38-feladatok.csproj.AssemblyReference.cache
+H:\c#\Muveletek-valtozokkal\38-feladatok\obj\Debug\38-feladatok.csproj.CoreCompileInputs.cache
+H:\c#\Muveletek-valtozokkal\38-feladatok\obj\Debug\38-feladatok.exe
+H:\c#\Muveletek-valtozokkal\38-feladatok\obj\Debug\38-feladatok.pdb
+H:\c#\Muveletek-valtozokkal\38-feladatok\obj\Debug\38-feladatok.exe.config

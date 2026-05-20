@@ -1,0 +1,8 @@
+H:\c#\fajlkiiratas\laz\bin\Debug\laz.exe.config
+H:\c#\fajlkiiratas\laz\bin\Debug\laz.exe
+H:\c#\fajlkiiratas\laz\bin\Debug\laz.pdb
+H:\c#\fajlkiiratas\laz\obj\Debug\laz.csproj.AssemblyReference.cache
+H:\c#\fajlkiiratas\laz\obj\Debug\laz.csproj.CoreCompileInputs.cache
+H:\c#\fajlkiiratas\laz\obj\Debug\laz.exe
+H:\c#\fajlkiiratas\laz\obj\Debug\laz.pdb
+H:\c#\fajlkiiratas\laz\obj\Debug\laz.exe.config

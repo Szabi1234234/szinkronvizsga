@@ -1,0 +1,8 @@
+H:\c#\Muveletek-valtozokkal\random\bin\Debug\random.exe.config
+H:\c#\Muveletek-valtozokkal\random\bin\Debug\random.exe
+H:\c#\Muveletek-valtozokkal\random\bin\Debug\random.pdb
+H:\c#\Muveletek-valtozokkal\random\obj\Debug\random.csproj.AssemblyReference.cache
+H:\c#\Muveletek-valtozokkal\random\obj\Debug\random.csproj.CoreCompileInputs.cache
+H:\c#\Muveletek-valtozokkal\random\obj\Debug\random.exe
+H:\c#\Muveletek-valtozokkal\random\obj\Debug\random.pdb
+H:\c#\Muveletek-valtozokkal\random\obj\Debug\random.exe.config

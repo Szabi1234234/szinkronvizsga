@@ -1,0 +1,7 @@
+H:\c#\MM_tavok\bin\Debug\MM_tavok.exe.config
+H:\c#\MM_tavok\bin\Debug\MM_tavok.exe
+H:\c#\MM_tavok\bin\Debug\MM_tavok.pdb
+H:\c#\MM_tavok\obj\Debug\MM_tavok.csproj.AssemblyReference.cache
+H:\c#\MM_tavok\obj\Debug\MM_tavok.csproj.CoreCompileInputs.cache
+H:\c#\MM_tavok\obj\Debug\MM_tavok.exe
+H:\c#\MM_tavok\obj\Debug\MM_tavok.pdb

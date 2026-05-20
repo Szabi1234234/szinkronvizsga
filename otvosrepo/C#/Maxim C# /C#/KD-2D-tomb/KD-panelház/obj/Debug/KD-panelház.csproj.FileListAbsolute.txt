@@ -1,0 +1,8 @@
+H:\KD-2D-tomb\KD-panelház\bin\Debug\KD-panelház.exe.config
+H:\KD-2D-tomb\KD-panelház\bin\Debug\KD-panelház.exe
+H:\KD-2D-tomb\KD-panelház\bin\Debug\KD-panelház.pdb
+H:\KD-2D-tomb\KD-panelház\obj\Debug\KD-panelház.csproj.AssemblyReference.cache
+H:\KD-2D-tomb\KD-panelház\obj\Debug\KD-panelház.csproj.CoreCompileInputs.cache
+H:\KD-2D-tomb\KD-panelház\obj\Debug\KD-panelház.exe
+H:\KD-2D-tomb\KD-panelház\obj\Debug\KD-panelház.pdb
+H:\KD-2D-tomb\KD-panelház\obj\Debug\KD-panelház.exe.config

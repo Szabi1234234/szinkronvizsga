@@ -1,0 +1,72 @@
+header{
+    width: 100%;
+    background-color: #1a3c34;
+    font-size: 3em;
+    color: #fff;
+    text-decoration: underline overline;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 140px;
+    padding: 1.25rem 1rem;
+    box-sizing: border-box;
+}
+
+div.kek{
+    background-color: aqua;
+}
+
+body{
+    font-family: Verdana, sans-serif;
+}
+
+h2{
+
+}
+
+#bevezeto{
+    width: 100%;
+}
+
+main{
+    width: 1600px;
+    margin: auto;
+}
+
+.card{
+    width:500px;
+    padding: 10px;
+}
+
+
+@media (max-width: 800px){
+    
+}
+
+.card img{
+    width: 480px;
+    display: block;
+    margin: auto;
+}
+
+.card img:hover{
+    animation: forog 3s linear;
+}
+
+@keyframes forog{
+    
+}
+
+.szamolas{
+    width: 500px;
+    background-color: aqua;
+    text-align: center;
+}
+
+a:any-link{
+    color: rgb(54, 0, 88);
+    font-weight: bold;
+}
+
