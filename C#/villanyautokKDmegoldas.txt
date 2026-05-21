@@ -1,0 +1,139 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+
+namespace villanyautok
+{
+    // 1. feladat: Auto osztály létrehozása az adatok tárolására
+    class Autok
+    {
+        public string Modell { get; set; }
+        public string Gyarto { get; set; }
+        public int Ev { get; set; }
+        public int Hatotav { get; set; }
+        public double Fogyasztas { get; set; }
+
+        // Konstruktor az adatok beállításához a pontosvesszővel elválasztott sor alapján
+        public Autok(string sor)
+        {
+            string[] d = sor.Split('#');
+            Modell = d[0];
+            Gyarto = d[1];
+            Ev = int.Parse(d[2]);
+            Hatotav = Convert.ToInt32(d[3]);
+            // A tizedesjel kezelése (vessző vagy pont)
+            Fogyasztas = double.Parse(d[4].Replace('.', ','));
+        }
+
+        // 1. feladat: Formázott visszatérési érték a kérés alapján
+        public string Kiir()
+        {
+            return $"[{Gyarto}] {Modell} ({Ev}) - Hatótáv: {Hatotav} km";
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // 2. feladat: Adatok beolvasása a villanyautok.txt állományból
+            List<Autok> autok = new List<Autok>();
+                // UTF-8 kódolás alkalmazása a forrás követelményei szerint [1]
+                string[] sorok = File.ReadAllLines("villanyautok.txt", Encoding.Default);
+                foreach (var sor in sorok)
+                {
+                    autok.Add(new Autok(sor));
+                }
+                Console.WriteLine($"2. feladat: Beolvasva {autok.Count} autó adatai.");
+   
+
+            // 3. feladat: Keresés modellnév alapján
+            Console.Write("\n3. feladat: Kérjen be egy modellnevet vagy részletet: ");
+            string keresett = Console.ReadLine().ToLower();
+            var talalatok = autok.Where(a => a.Modell.ToLower().Contains(keresett)).ToList();
+
+            if (talalatok.Any())
+            {
+                foreach (var a in talalatok) Console.WriteLine("\t" + a.Kiir());
+            }
+            else
+            {
+                Console.WriteLine("\tNincs ilyen modell a rendszerben.");
+            }
+
+            // 4. feladat: Maximumkeresés hagyományos programozási tétellel
+            if (autok.Count > 0)
+            {
+                // Feltételezzük, hogy az első elem a legnagyobb
+                Autok maxAuto = autok[0];
+
+                // Végigjárjuk a listát a második elemtől
+                for (int i = 1; i < autok.Count; i++)
+                {
+                    // Ha találunk nagyobb hatótávút, frissítjük a maximumot
+                    if (autok[i].Hatotav > maxAuto.Hatotav)
+                    {
+                        maxAuto = autok[i];
+                    }
+                }
+
+                Console.WriteLine("\n4. feladat: A legnagyobb hatótávolságú autó adatai:");
+                // A kiir() metódust használjuk a megjelenítéshez, ahogy a forrás előírja
+                Console.WriteLine("\t" + maxAuto.Kiir());
+            }
+
+            // 5. feladat: Statisztika (Összes modell és 2020 utáni modellek száma)
+            Console.WriteLine("\n5. feladat: Gyártói statisztika (Modellszám és generációs megoszlás):");
+            Console.WriteLine($"\t{"Gyártó",-20} | {"Összesen",-10} | {"2020 utáni modell"}");
+            Console.WriteLine("\t" + new string('-', 60));
+
+            var stat = autok.GroupBy(a => a.Gyarto);
+
+            foreach (var csoport in stat)
+            {
+                int osszes = csoport.Count(); // Az adott gyártó összes modellje
+                int ujGeneracio = 0;        // Itt kell inicializálni minden gyártónál!
+
+                // Belső ciklus kell, hogy végigmenjünk a csoport elemein
+                foreach (var auto in csoport)
+                {
+                    // Itt már elérhető az 'auto.Ev'
+                    // Korábbi kérésedre az && operátorral bővítve (pl. ha csak érvényes évszámot nézünk)
+                    if (auto.Ev >= 2020)
+                        ujGeneracio++;
+
+                }
+
+                // Kiírás a gyártó neve után
+                Console.WriteLine($"\t{csoport.Key,-20} | Összesen: {osszes,2} db | Új (2020+): {ujGeneracio,2} db");
+            }
+
+            // 6. feladat: Markdown riport generálása (hatotekony.md)
+            try
+            {
+                using (StreamWriter sw = new StreamWriter("hatekony.md", false, Encoding.UTF8))
+                {
+                    // Fejléc és elválasztók a kért MD szintaktika szerint [2]
+                    sw.WriteLine("| Modell | Gyártó | Fogyasztás |");
+                    sw.WriteLine("| :--- | :---: | :---: |");
+
+                    // Szűrés a 15.0 alatti fogyasztású ("hatékony") autókra
+                    var hatekonyak = autok.Where(a => a.Fogyasztas < 15.0);
+                    foreach (var a in hatekonyak)
+                    {
+                        sw.WriteLine($"| {a.Modell} | {a.Gyarto} | {a.Fogyasztas:0.1} |");
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("\n6. feladat: Hiba a fájl írásakor: " + ex.Message);
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
